@@ -13,3 +13,4 @@
 3. 无法快速分享md格式的文件给别人，可以导出pdf格式的
 
 ![](../photo/Pasted%20image%2020220926113639.png)
+![](../photo/Pasted%20image%2020220926151026.png)
