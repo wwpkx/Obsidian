@@ -7,8 +7,12 @@
         "id": "0ba2825c8875e452",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "template/西蒙.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "template/西蒙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "template/西蒙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "template/西蒙.md"
+              }
             }
           },
           {
@@ -128,17 +136,17 @@
     "width": 330.5,
     "collapsed": true
   },
-  "active": "3cb30035c9f457ab",
+  "active": "0ba2825c8875e452",
   "lastOpenFiles": [
-    "2022-09-26.md",
-    "tool/obsidian设置.md",
+    "template/费曼.md",
+    "template/西蒙.md",
     "tool/未命名.md",
+    "tool/obsidian设置.md",
+    "2022-09-26.md",
     "photo/Pasted image 20220926113639.png",
     "photo/Pasted image 20220926100913.png",
     "photo/Pasted image 20220926100655.png",
     "test/未命名.md",
-    "test/未命名 1.md",
-    "Users/未命名 2.md",
-    "Users/未命名 1.md"
+    "test/未命名 1.md"
   ]
 }
