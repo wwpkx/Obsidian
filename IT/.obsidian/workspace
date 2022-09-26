@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "tool/obsidian设置.md",
+            "file": "tool/未命名.md",
             "mode": "source",
             "source": false
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f2d98fcf7cfa9ce9",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tool/obsidian设置.md",
+                "file": "tool/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tool/obsidian设置.md",
+                "file": "tool/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tool/obsidian设置.md"
+                "file": "tool/未命名.md"
               }
             }
           },
@@ -137,12 +136,12 @@
     "direction": "horizontal",
     "width": 330.5
   },
-  "active": "54cd865a2d691105",
+  "active": "0ba2825c8875e452",
   "lastOpenFiles": [
+    "tool/obsidian设置.md",
     "photo/Pasted image 20220926113639.png",
     "photo/Pasted image 20220926100913.png",
     "photo/Pasted image 20220926100655.png",
-    "tool/obsidian设置.md",
     "test/未命名.md",
     "test/未命名 1.md",
     "Users/未命名 2.md",
