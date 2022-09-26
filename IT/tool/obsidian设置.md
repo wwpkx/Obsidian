@@ -2,6 +2,7 @@
 ![Pasted image 20220926100655](../photo/Pasted%20image%2020220926100655.png)
 
 **use wikilink关掉，这样会自动转换成通用的md链接格式**
+文件和图片链接使用 markdonw格式，在git中也能cha kan
 ![Pasted image 20220926100913](../photo/Pasted%20image%2020220926100913.png)
 
 **文件路径 和 图片路径**
