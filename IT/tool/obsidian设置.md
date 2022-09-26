@@ -17,7 +17,7 @@
 ![](../photo/Pasted%20image%2020220926151026.png)
 
 # 插件
-不需要VPN与翻墙，完美解决obsidian无法加载第三方插件
+不需要VPN与翻墙，完美解决obsidian无法加载第三方插件 
 https://github.com/juqkai/obsidian-proxy-github
 https://gitee.com/juqkai/obsidian-proxy-github
 
