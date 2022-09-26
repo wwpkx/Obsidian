@@ -7,11 +7,9 @@
         "id": "0ba2825c8875e452",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "tool/obsidian设置.md",
-            "mode": "source",
-            "source": false
+            "file": "photo/Pasted image 20220926113639.png"
           }
         }
       }
@@ -77,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tool/obsidian设置.md",
+                "file": "photo/Pasted image 20220926113639.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tool/obsidian设置.md",
+                "file": "photo/Pasted image 20220926113639.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tool/obsidian设置.md"
+                "file": "photo/Pasted image 20220926113639.png"
               }
             }
           },
@@ -138,6 +136,8 @@
   },
   "active": "0ba2825c8875e452",
   "lastOpenFiles": [
+    "photo/Pasted image 20220926100913.png",
+    "photo/Pasted image 20220926100655.png",
     "tool/obsidian设置.md",
     "test/未命名.md",
     "test/未命名 1.md",
@@ -145,8 +145,6 @@
     "Users/未命名 1.md",
     "Users/未命名.md",
     "Users/wangguniang/Obsidian/IT/photo/image-20220926111454036.png.md",
-    "tool/Pasted image 20220926100913]Pasted%20image%2020220926100913.png.md",
-    "tool/wikilink.md",
-    "test/bbb.md"
+    "tool/Pasted image 20220926100913]Pasted%20image%2020220926100913.png.md"
   ]
 }
