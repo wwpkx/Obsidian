@@ -1,5 +1,5 @@
 **把文件删除到.trash文件夹**
-![](Pasted%20image%2020220926100655.png)
+![Pasted image 20220926100655](../photo/Pasted%20image%2020220926100655.png)
 
 **use wikilink关掉，这样会自动转换成通用的md链接格式**
 ![](Pasted%20image%2020220926100913.png)
