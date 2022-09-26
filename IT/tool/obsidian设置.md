@@ -1,3 +1,8 @@
+# 缺陷
+markdown 换行不统一
+严格的markdown格式使用 两个空格+回车 换行
+obsidian 和 typora 直接使用回车 换行
+
 # 设置
 **把文件删除到.trash文件夹**
 ![Pasted image 20220926100655](../photo/Pasted%20image%2020220926100655.png)
