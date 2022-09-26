@@ -1,3 +1,4 @@
+# 设置
 **把文件删除到.trash文件夹**
 ![Pasted image 20220926100655](../photo/Pasted%20image%2020220926100655.png)
 
@@ -14,3 +15,24 @@
 
 ![](../photo/Pasted%20image%2020220926113639.png)
 ![](../photo/Pasted%20image%2020220926151026.png)
+
+# 插件
+不需要VPN与翻墙，完美解决obsidian无法加载第三方插件
+https://github.com/juqkai/obsidian-proxy-github
+https://gitee.com/juqkai/obsidian-proxy-github
+
+Annotator
+It allows you to open and annotate PDF and EPUB files.
+
+PDF to Markdown
+https://github.com/akaalias/obsidian-extract-pdf
+是一个好用的PDF转换文本工具，可以直接将PDF转化为markdown文件，你可以直接在原文上做笔记了。
+
+Note Refactor插件
+是一个很好用的拆书工具，可以让你用不同方式拆解一本书，打造自己的知识网络。
+
+Enhancing mind
+是一个免费绘制思维导图工具，你可以直接用它绘制自己的想法。
+
+template
+是一个很好用的快捷写作工具，可以让你用不同的模板写论文、写文献笔记，提高你的写作效率。
