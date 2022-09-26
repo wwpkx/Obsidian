@@ -2,7 +2,7 @@
 ![Pasted image 20220926100655](../photo/Pasted%20image%2020220926100655.png)
 
 **use wikilink关掉，这样会自动转换成通用的md链接格式**
-![](Pasted%20image%2020220926100913.png)
+![Pasted image 20220926100913](../photo/Pasted%20image%2020220926100913.png)
 
 **文件路径 和 图片路径**
 文件路径使用 相对路径，可以更好的组织文件

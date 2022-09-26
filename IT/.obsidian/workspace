@@ -7,11 +7,10 @@
         "id": "0ba2825c8875e452",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "diff-view",
           "state": {
-            "file": "tool/obsidian设置.md",
-            "mode": "source",
-            "source": false
+            "file": "IT/tool/obsidian设置.md",
+            "staged": false
           }
         }
       }
@@ -78,7 +77,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tool/obsidian设置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +93,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tool/obsidian设置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,9 +114,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "tool/obsidian设置.md"
-              }
+              "state": {}
             }
           },
           {
@@ -137,10 +132,10 @@
     "direction": "horizontal",
     "width": 330.5
   },
-  "active": "da9d213ed3185e9f",
+  "active": "0ba2825c8875e452",
   "lastOpenFiles": [
-    "test/未命名.md",
     "tool/obsidian设置.md",
+    "test/未命名.md",
     "test/未命名 1.md",
     "Users/未命名 2.md",
     "Users/未命名 1.md",
