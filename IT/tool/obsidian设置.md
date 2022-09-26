@@ -1,7 +1,11 @@
 # 缺陷
-markdown 换行不统一
-严格的markdown格式使用 两个空格+回车 换行
-obsidian 和 typora 直接使用回车 换行
+- markdown 换行不统一
+- 严格的markdown格式使用 **两个空格+回车** 换行
+- obsidian 和 typora 直接使用回车 换行
+
+# 优势
+双链，文件+标签
+目录结构
 
 # 设置
 **把文件删除到.trash文件夹**
