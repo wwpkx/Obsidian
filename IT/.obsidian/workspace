@@ -142,10 +142,9 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5,
-    "collapsed": true
+    "width": 330.5
   },
-  "active": "54cd865a2d691105",
+  "active": "0ba2825c8875e452",
   "lastOpenFiles": [
     "tool/obsidian设置.md",
     "net/常用术语.md",
