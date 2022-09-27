@@ -138,14 +138,13 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 330.5,
-    "collapsed": true
+    "width": 330.5
   },
-  "active": "81685e0b43de7beb",
+  "active": "54cd865a2d691105",
   "lastOpenFiles": [
     "tool/obsidian设置.md",
     "net/常用术语.md",
