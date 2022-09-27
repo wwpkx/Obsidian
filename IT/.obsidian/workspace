@@ -9,19 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "net/未命名.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "fcbe9e7e3bb44a91",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "net/目标.md",
+            "file": "net/常用术语.md",
             "mode": "source",
             "source": false
           }
@@ -89,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "net/目标.md",
+                "file": "net/常用术语.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "net/目标.md",
+                "file": "net/常用术语.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "net/目标.md"
+                "file": "net/常用术语.md"
               }
             }
           },
@@ -146,19 +134,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 330.5,
+    "collapsed": true
   },
-  "active": "fcbe9e7e3bb44a91",
+  "active": "0ba2825c8875e452",
   "lastOpenFiles": [
+    "net/一个公网出口NAT服务设备最多可同时支持多少内网IP并发访问外网服务？.md",
+    "net/常用术语.md",
     "net/未命名.md",
+    "net/目标.md",
     "tool/obsidian设置.md",
     "template/2mkx麦肯锡.md",
     "template/2kne康奈尔.md",
     "template/1fn费曼.md",
     "photo/Pasted image 20220926151026.png",
-    "photo/Pasted image 20220926113639.png",
-    "photo/Pasted image 20220926100913.png",
-    "photo/Pasted image 20220926100655.png",
-    "tool/未命名.md"
+    "photo/Pasted image 20220926113639.png"
   ]
 }
