@@ -57,12 +57,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f2d98fcf7cfa9ce9",
@@ -139,13 +139,13 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 316.0376892089844
   },
-  "active": "fb36a635f91e21ee",
+  "active": "33080297c9b5498c",
   "lastOpenFiles": [
     "net/目标.md",
     "net/0index.md",
