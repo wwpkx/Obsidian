@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f2d98fcf7cfa9ce9",
@@ -139,18 +138,18 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 316.0376892089844
   },
-  "active": "54cd865a2d691105",
+  "active": "fb36a635f91e21ee",
   "lastOpenFiles": [
-    "tool/obsidian设置.md",
-    "net/常用术语.md",
-    "net/一个公网出口NAT服务设备最多可同时支持多少内网IP并发访问外网服务？.md",
     "net/未命名.md",
+    "net/常用术语.md",
+    "tool/obsidian设置.md",
+    "net/一个公网出口NAT服务设备最多可同时支持多少内网IP并发访问外网服务？.md",
     "net/目标.md",
     "template/2mkx麦肯锡.md",
     "template/2kne康奈尔.md",
