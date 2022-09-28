@@ -46,3 +46,14 @@
 - 
 - SD card  SD卡 （永久性存储）
 - USB  （移动存储）
+
+# 命令
+- Delete 将文件删除到回收站
+- Undelete 恢复删除的文件
+- Reset recycle-bin 清空回收站
+
+配置文件
+display current-configuration 显示当前配置文件 
+display saved-configuration 显示保存的配置文件
+save 保存当前配置信息
+compare configuration 比较当前配置和保存的配置
