@@ -139,14 +139,13 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 316.0376892089844,
-    "collapsed": true
+    "width": 316.0376892089844
   },
-  "active": "0ba2825c8875e452",
+  "active": "fb36a635f91e21ee",
   "lastOpenFiles": [
     "net/目标.md",
     "net/0index.md",
