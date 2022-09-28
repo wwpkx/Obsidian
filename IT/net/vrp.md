@@ -19,11 +19,13 @@
 | web图形化 | HTTP    | 图形化界面，更直观            |          | 登入使用HTTPS(SSL证书)，传输数据使用HTTP |
 | web图形化 | HTTPS   | 图形化界面，更直观            |          | 登入和传输数据都是用HTTPS，需要开启命令      |
 
+![](../photo/Pasted%20image%2020220928173139.png)
+
 ![](../photo/Pasted%20image%2020220928173128.png)
+![](../photo/Pasted%20image%2020220928180158.png)
+
 
 ![](../photo/Pasted%20image%2020220928173132.png)
-
-![](../photo/Pasted%20image%2020220928173139.png)
 
 ![](../photo/Pasted%20image%2020220928173148.png)
 
