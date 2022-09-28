@@ -52,15 +52,24 @@
 - unreserved 永久删除文件
 - Undelete 恢复删除的文件
 - Reset recycle-bin 清空回收站
+- 
+- fixdisk flash/sd1 存储设备修复，执行命令后，如果仍然收到系统建议修复的信息，则表示物理介质可能已经损坏。
+- format flash/sd1 格式化，格式化会导致数据丢失
 
-配置文件
-display current-configuration 显示当前配置文件 
-display saved-configuration 显示保存的配置文件
-save 保存当前配置信息，默认文件名为vrpcfg.zip
-compare configuration 比较当前配置和保存的配置
-reset saved-configuration 配置文件重置
-display startup 查看系统启动配置参数
-startup saved-configuration  [configuration-file]  配置系统下次启动时使用的配置文件
+## 配置文件
+- display startup 查看系统启动配置参数
+- display current-configuration 显示当前配置文件 
+- display saved-configuration 显示保存的配置文件
+- 
+- reset saved-configuration 配置文件重置
+- save [configuration-file] 保存当前配置信息，默认文件名为**vrpcfg.zip**
+- startup saved-configuration  [configuration-file]  配置系统下次启动时使用的配置文件
+- 
+- compare configuration 比较当前配置和保存的配置
+
+
+
+
 
 
 
