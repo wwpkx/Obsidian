@@ -33,8 +33,16 @@
 
 # 文件系统
 ## 设备内存
-- SDRAM  内存 （临时性存储） 断电后配置文件丢弃 （内存较大）
-- NVRAM  内存 断电后配置文件还在 （内存小）
-- Flash 闪存    （永久性存储）
-- SD card SD卡 （永久性存储）
+- RAM        随机访问存储器（Random Access Memory，RAM），断电之后信息就丢失了
+- SDRAM   内存 （临时性存储） 断电后配置文件丢弃 （内存较大）
+- 
+- NVRAM   内存   断电后配置文件还在 （内存小）
+	- NVRAM（ Non-Volatile Random Access Memory） 是非易失性随机访问存储器
+	- 指断电后仍能保持数据的一种RAM
+- 
+- Flash       闪存    （永久性存储）
+	- nand flash，属于顺序访问（serial access）
+	- nor flash，属于是可以随机访问的
+- 
+- SD card  SD卡 （永久性存储）
 - USB  （移动存储）
