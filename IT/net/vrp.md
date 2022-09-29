@@ -130,14 +130,15 @@ Info: Add a new user.
 ```
 
 
-# 命令
-- Delete 将文件删除到回收站
+## 常用命令
+- delete 将文件删除到回收站
 - unreserved 永久删除文件
 - Undelete 恢复删除的文件
 - Reset recycle-bin 清空回收站
 - reboot 重启设备
+- display h?  在线帮助
 - 
-- fixdisk flash/sd1 存储设备修复，执行命令后，如果仍然收到系统建议修复的信息，则表示物理介质可能已经损坏。
+- fixdisk flash/sd1 存储设备修复，执行后，如果仍收到建议修复信息，物理介质可能已经损坏
 - format flash/sd1 格式化，格式化会导致数据丢失
 
 - 各种查看命令
@@ -194,5 +195,5 @@ Info: Add a new user.
 	设备初始化启动，询问是否进入**自动配置（一问一答模式）**，一般选择手动配置
 	Do you want to **stop** Auto-Config? [y/n]:Y
 	
-	<Huawei> display h?  //在线帮助
+
 
