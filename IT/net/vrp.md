@@ -82,13 +82,21 @@
 ## 系统配置
 	设备初始化启动，询问是否进入**自动配置（一问一答模式）**，一般选择手动配置
 	Do you want to **stop** Auto-Config? [y/n]:Y
-	<Huawei> display h?  在线帮助
-
+	
+	<Huawei> display h?  //在线帮助
 
 
 ![命令行视图](../photo/Pasted%20image%2020220929093706.png)
 
 
+| 命令                                      | 功能                  |
+|-----------------------------------------|---------------------|
+| display version                         | 查看路由器基本信息           |
+| display interface GigabitEthernet 0/0/0 | 查看接口状态信息            |
+| display ip interface brief              | 查看全部接口的IP简要信息，含IP地址 |
+| display ip routing-table                | 查看路由表               |
+| display current-configuration           | 查看当前的配置（内存中）        |
+| display saved-configuration             | 查看保存的配置（Flash中）     |
 
 
 
