@@ -54,7 +54,19 @@
 ![](../photo/Pasted%20image%2020220928173148.png)
 
 ![](../photo/Pasted%20image%2020220928173200.png)
-# 用户等级
+
+# 远程管理
+
+## 命令行视图
+| 用户界面类型   | 编号  |
+|----------|-----|
+| Console  | 0   |
+| VTY      | 0-4 |
+
+![命令行视图](../photo/Pasted%20image%2020220929093706.png)
+
+
+## 用户等级
 | 用户等级 | 命令等级        | 名称  |
 |------|-------------|-----|
 | 0    | 0           | 访问级 |
@@ -62,10 +74,22 @@
 | 2    | 0,1 and 2   | 配置级 |
 | 3-15 | 0,1,2 and 3 | 管理级 |
 
-![命令行视图](../photo/Pasted%20image%2020220929093706.png)
+## VTY（命令行终端） 
+- 虚拟类型终端（Virtual Type Terminal）是一种虚拟线路端口
+- 用户通过终端与设备建立Telnet或SSH连接后，也就建立了一条VTY
+- 设备一般最多支持15个用户同时通过VTY方式访问
+- 路由器上有5个VTY口，分别0、1、2、3、4
+- 如果想同时配置这5个口，line vty 0 4
+```
+(config)#display user-interface //命令用来查看用户界面信息。
+(config)#user-interface maximum-vty number //配置同时登录到设备的VTY类型用户界面的最大个数。如果设为0，则任何用户都不能通过Telnet或者SSH登录到路由器。
 
+(config)#line vty 0 ? //查看该设备支持多少条线路。
+(config)#line vty 0
+(config-line)#transport ?   //查看支持哪种方式的协议定义
+```
 
-# 远程管理
+## 认证模式
 | 认证模式     | 描述 |
 | ------------ | ---- |
 | AAA模式      |   用户名和密码   |
@@ -104,19 +128,6 @@ Info: Add a new user.
 [AR1]user-interface vty 0 4
 [AR1-ui-vty0-4]authentication-mode aaa/*设置vty的认证模式为aaa认证*/
 ```
-
-
-VTY
-- 虚拟终端(VT)，一般支持telnet、ssh
-- 路由器上有5个VTY口，分别0、1、2、3、4
-- 如果想同时配置这5个口，line vty 0 4
-```
-(config)#line vty 0 ? //查看该设备支持多少条线路。
-(config)#line vty 0
-(config-line)#transport ?   //查看支持哪种方式的协议定义
-```
-
-
 
 
 # 命令
