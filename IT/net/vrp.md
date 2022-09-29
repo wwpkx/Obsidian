@@ -79,6 +79,11 @@
 - patch //Set patch file
 - compare configuration 比较当前配置和保存的配置
 
+## 系统配置
+	设备初始化启动，询问是否进入**自动配置（一问一答模式）**，一般选择手动配置
+	Do you want to **stop** Auto-Config? [y/n]:Y
+啊啊啊
+
 
 
 
