@@ -169,24 +169,3 @@ Info: Add a new user.
 	
 	<Huawei> display h?  //在线帮助
 
-
-| 命令                                    | 功能                               |
-| --------------------------------------- | ---------------------------------- |
-| clock timezone                          | 设置所在时区                       |
-| clock datetime                          | 设置当前时间和日期                 |
-| clock daylight-saving-time              | 设置采用夏时制                     |
-| display version                         | 查看路由器基本信息                 |
-| display interface GigabitEthernet 0/0/0 | 查看接口状态信息                   |
-| display ip interface brief              | 查看全部接口的IP简要信息，含IP地址 |
-| display ip routing-table                | 查看路由表                         |
-| display current-configuration           | 查看当前的配置（内存中）           |
-| display saved-configuration             | 查看保存的配置（Flash中）          |
-
-
-- 配置用户界面命令
-
-- idle-timeout 设置超时时间
-
-
-
-
