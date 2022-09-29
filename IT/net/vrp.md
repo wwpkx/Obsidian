@@ -61,7 +61,27 @@
 | AAA模式      |   用户名和密码   |
 | 密码认证模式 |   所有的用户使用的都是同一个密码   |
 | 不认证模式             |   Console界面默认使用   |
+```
+//none认证模式
+[AR1]user-interface vty 0 4/*同时设置5个vty连接，可同时供5个telnet连接此设备，当超出5个时，无法连接*/
+[AR1-ui-vty0-4]set authentication none/*none认证模式，telnet连接时无需输入密码*/
 
+//Password模式
+[AR1]user-interface vty 0 4
+[AR1-ui-vty0-4]set authentication password cipher huawei/*设置成密码连接方式，telnet客户端连接时需要输入设置的密码才远程登录*/
+
+//AAA认证
+[AR1]aaa
+[AR1-aaa]local-user huawei password cipher 123
+Info: Add a new user.
+[AR1-aaa]local-user huawei service-type telnet/*设置账号的服务类型*/
+[AR1-aaa]local-user huawei privilege level 3/*设置远程登录后的账号权限等级*/
+[AR1-aaa]q
+[AR1]user-interface vty 0 4
+[AR1-ui-vty0-4]authentication-mode aaa/*设置vty的认证模式为aaa认证*/
+```
+
+```
 VTY
 - 虚拟终端(VT)，一般支持telnet、ssh
 - 路由器上有5个VTY口，分别0、1、2、3、4
