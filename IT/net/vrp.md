@@ -63,6 +63,7 @@
 - fixdisk flash/sd1 存储设备修复，执行命令后，如果仍然收到系统建议修复的信息，则表示物理介质可能已经损坏。
 - format flash/sd1 格式化，格式化会导致数据丢失
 
+
 ## FTP与TFTP的区别
 
 
@@ -89,14 +90,18 @@
 ![命令行视图](../photo/Pasted%20image%2020220929093706.png)
 
 
-| 命令                                      | 功能                  |
-|-----------------------------------------|---------------------|
-| display version                         | 查看路由器基本信息           |
-| display interface GigabitEthernet 0/0/0 | 查看接口状态信息            |
+
+| 命令                                    | 功能                               |
+| --------------------------------------- | ---------------------------------- |
+| clock timezone                          | 设置所在时区                       |
+| clock datetime                          | 设置当前时间和日期                 |
+| clock daylight-saving-time              | 设置采用夏时制                     |
+| display version                         | 查看路由器基本信息                 |
+| display interface GigabitEthernet 0/0/0 | 查看接口状态信息                   |
 | display ip interface brief              | 查看全部接口的IP简要信息，含IP地址 |
-| display ip routing-table                | 查看路由表               |
-| display current-configuration           | 查看当前的配置（内存中）        |
-| display saved-configuration             | 查看保存的配置（Flash中）     |
+| display ip routing-table                | 查看路由表                         |
+| display current-configuration           | 查看当前的配置（内存中）           |
+| display saved-configuration             | 查看保存的配置（Flash中）          |
 
 
 
