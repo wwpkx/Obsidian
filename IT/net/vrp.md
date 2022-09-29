@@ -54,6 +54,16 @@
 ![](../photo/Pasted%20image%2020220928173148.png)
 
 ![](../photo/Pasted%20image%2020220928173200.png)
+# 用户等级
+| 用户等级 | 命令等级        | 名称  |
+|------|-------------|-----|
+| 0    | 0           | 访问级 |
+| 1    | 0 and 1     | 监控级 |
+| 2    | 0,1 and 2   | 配置级 |
+| 3-15 | 0,1,2 and 3 | 管理级 |
+
+![命令行视图](../photo/Pasted%20image%2020220929093706.png)
+
 
 # 远程管理
 | 认证模式     | 描述 |
@@ -61,6 +71,20 @@
 | AAA模式      |   用户名和密码   |
 | 密码认证模式 |   所有的用户使用的都是同一个密码   |
 | 不认证模式             |   Console界面默认使用   |
+
+| Telnet server enable                         | 开启telnet服务 |
+|----------------------------------------------|------------|
+| Display telnet server                        | 验证telnet服务 |
+|  user-interface vty 0 4                          | 进入VTY配置模式  |
+|  set authentication-mode password/aaa        | 配置认证模式     |
+|          user privilege level 15             | 配置用户权限     |
+|          user-interface maximum-vty 15       | 配置最大接入数    |
+|          idle-timeout 10                     | 配置超时时间     |
+| AAA                                          | 进入AAA配置模式  |
+| local-user huawei password cipher huawei@123 | 创建用户名和密码   |
+| local-user huawei privilege level 15         | 配置用户权限     |
+| local-user huawei service-type telnet        | 配置服务类型     |
+
 ```
 //none认证模式
 [AR1]user-interface vty 0 4/*同时设置5个vty连接，可同时供5个telnet连接此设备，当超出5个时，无法连接*/
@@ -68,20 +92,20 @@
 
 //Password模式
 [AR1]user-interface vty 0 4
-[AR1-ui-vty0-4]set authentication password cipher huawei/*设置成密码连接方式，telnet客户端连接时需要输入设置的密码才远程登录*/
+[AR1-ui-vty0-4]set authentication password cipher huawei/*设置成密码连接方式*/
 
 //AAA认证
 [AR1]aaa
 [AR1-aaa]local-user huawei password cipher 123
 Info: Add a new user.
-[AR1-aaa]local-user huawei service-type telnet/*设置账号的服务类型*/
-[AR1-aaa]local-user huawei privilege level 3/*设置远程登录后的账号权限等级*/
+[AR1-aaa]local-user huawei service-type telnet /*设置账号的服务类型*/
+[AR1-aaa]local-user huawei privilege level 3 /*设置远程登录后的账号权限等级*/
 [AR1-aaa]q
 [AR1]user-interface vty 0 4
 [AR1-ui-vty0-4]authentication-mode aaa/*设置vty的认证模式为aaa认证*/
 ```
 
-```
+
 VTY
 - 虚拟终端(VT)，一般支持telnet、ssh
 - 路由器上有5个VTY口，分别0、1、2、3、4
@@ -93,7 +117,7 @@ VTY
 ```
 
 
-![命令行视图](../photo/Pasted%20image%2020220929093706.png)
+
 
 # 命令
 - Delete 将文件删除到回收站
