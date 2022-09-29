@@ -57,6 +57,16 @@
 
 # 远程管理
 
+## FTP与TFTP的区别
+|     | ftp                | tftp                 |
+|--------|--------------------|----------------------|
+| 设备登入   | 需要输入账号密码           | 不需用                  |
+| 可靠     | TCP，可靠，跨网段或广域网之间使用 | UDP，不可靠，局域网内对可靠性要求不高 |
+| 传输显示进度 | 显示进度               | 不显示进度                |
+| 查看文件   | 可查看                | 不能查看                 |
+| 传输的命令  | ftp 服务器地址 get 文件名  | Tftp 服务器地址 get 文件名   |
+
+
 ## 命令行视图
 | 用户界面类型   | 编号  |
 |----------|-----|
@@ -129,6 +139,9 @@ Info: Add a new user.
 [AR1-ui-vty0-4]authentication-mode aaa/*设置vty的认证模式为aaa认证*/
 ```
 
+# 命令
+	设备初始化启动，询问是否进入**自动配置（一问一答模式）**，一般选择手动配置
+	Do you want to **stop** Auto-Config? [y/n]:Y
 
 ## 常用命令
 - delete 将文件删除到回收站
@@ -137,11 +150,10 @@ Info: Add a new user.
 - Reset recycle-bin 清空回收站
 - reboot 重启设备
 - display h?  在线帮助
-- 
 - fixdisk flash/sd1 存储设备修复，执行后，如果仍收到建议修复信息，物理介质可能已经损坏
 - format flash/sd1 格式化，格式化会导致数据丢失
 
-- 各种查看命令
+## 各种查看命令
 - display version 查看路由器基本信息 
 - display interface GigabitEthernet 0/0/0 查看接口状态信息
 - display ip interface brief 查看全部接口的IP简要信息，含IP地址
@@ -150,35 +162,24 @@ Info: Add a new user.
 - display saved-configuration 查看保存的配置（Flash中）
 - dir flash: 查看Flash中的文件
 
-- 配置标题消息
+## 配置标题消息
 - header login 配置在用户登陆前显示的标题消息
 - header shell 配置在用户登陆后显示的标题消息
 
-- 配置系统时钟
+## 配置系统时钟
 - clock timezone 设置所在时区
 - clock datetime 设置当前时间和日期
 - clock daylight-saving-time 设置采用夏时制
 
-- 配置用户界面命令
+## 配置用户界面命令
 - idle-timeout 设置超时时间
 - screen-length 设置指定终端屏幕的临时显示行数
 - history-command max-size 设置历史命令缓冲区的大小
 
-- 配置系统界面命令
+## 配置系统界面命令
 - sysname xxx 配置设备名称，立即生效
 
-
-## FTP与TFTP的区别
-|     | ftp                | tftp                 |
-|--------|--------------------|----------------------|
-| 设备登入   | 需要输入账号密码           | 不需用                  |
-| 可靠     | TCP，可靠，跨网段或广域网之间使用 | UDP，不可靠，局域网内对可靠性要求不高 |
-| 传输显示进度 | 显示进度               | 不显示进度                |
-| 查看文件   | 可查看                | 不能查看                 |
-| 传输的命令  | ftp 服务器地址 get 文件名  | Tftp 服务器地址 get 文件名   |
-
-
-## 配置文件
+## 配置文件相关命令
 - display startup 查看系统启动配置参数
 - display current-configuration 显示当前配置文件 
 - display saved-configuration 显示保存的配置文件
@@ -190,10 +191,4 @@ Info: Add a new user.
 - 
 - patch //Set patch file
 - compare configuration 比较当前配置和保存的配置
-
-## 系统配置
-	设备初始化启动，询问是否进入**自动配置（一问一答模式）**，一般选择手动配置
-	Do you want to **stop** Auto-Config? [y/n]:Y
-	
-
 
