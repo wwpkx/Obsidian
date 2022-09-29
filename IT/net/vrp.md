@@ -73,8 +73,10 @@
 - 
 - reset saved-configuration 配置文件重置
 - save [configuration-file] 保存当前配置信息，默认文件名为**vrpcfg.zip**
-- startup saved-configuration  [configuration-file]  配置系统下次启动时使用的配置文件
+- startup saved-configuration  [configuration-file]  配置**系统下次启动时使用的**配置文件
+- system-software  设置下一启动的系统文件
 - 
+- patch //Set patch file
 - compare configuration 比较当前配置和保存的配置
 
 
