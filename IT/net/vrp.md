@@ -54,6 +54,10 @@
 - SD card  SD卡 （永久性存储）
 - USB  （移动存储）
 
+# 认证模式
+
+![命令行视图](../photo/Pasted%20image%2020220929093706.png)
+
 # 命令
 - Delete 将文件删除到回收站
 - unreserved 永久删除文件
@@ -87,7 +91,7 @@
 	<Huawei> display h?  //在线帮助
 
 
-![命令行视图](../photo/Pasted%20image%2020220929093706.png)
+
 
 
 
