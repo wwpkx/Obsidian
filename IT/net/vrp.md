@@ -63,10 +63,11 @@
 | 不认证模式             |   Console界面默认使用   |
 
 VTY
-- 虚拟终端(VT)
+- 虚拟终端(VT)，一般支持telnet、ssh
 - 路由器上有5个VTY口，分别0、1、2、3、4
 - 如果想同时配置这5个口，line vty 0 4
 ```
+(config)#line vty 0 ? //查看该设备支持多少条线路。
 (config)#line vty 0
 (config-line)#transport ?   //查看支持哪种方式的协议定义
 ```
