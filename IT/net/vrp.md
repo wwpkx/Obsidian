@@ -66,9 +66,11 @@ VTY
 - 虚拟终端(VT)
 - 路由器上有5个VTY口，分别0、1、2、3、4
 - 如果想同时配置这5个口，line vty 0 4
+```
+(config)#line vty 0
+(config-line)#transport ?   //查看支持哪种方式的协议定义
+```
 
-	(config)#line vty 0
-	(config-line)#transport ?   //查看支持哪种方式的协议定义
 
 ![命令行视图](../photo/Pasted%20image%2020220929093706.png)
 
@@ -103,8 +105,6 @@ VTY
 	Do you want to **stop** Auto-Config? [y/n]:Y
 	
 	<Huawei> display h?  //在线帮助
-
-
 
 
 
