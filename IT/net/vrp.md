@@ -63,7 +63,7 @@
 | 不认证模式             |   Console界面默认使用   |
 
 VTY
-aa
+- 
 
 ![命令行视图](../photo/Pasted%20image%2020220929093706.png)
 
