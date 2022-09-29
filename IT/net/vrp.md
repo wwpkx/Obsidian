@@ -135,9 +135,36 @@ Info: Add a new user.
 - unreserved 永久删除文件
 - Undelete 恢复删除的文件
 - Reset recycle-bin 清空回收站
+- reboot 重启设备
 - 
 - fixdisk flash/sd1 存储设备修复，执行命令后，如果仍然收到系统建议修复的信息，则表示物理介质可能已经损坏。
 - format flash/sd1 格式化，格式化会导致数据丢失
+
+- 各种查看命令
+- display version 查看路由器基本信息 
+- display interface GigabitEthernet 0/0/0 查看接口状态信息
+- display ip interface brief 查看全部接口的IP简要信息，含IP地址
+- display ip routing-table 查看路由表
+- display current-configuration 查看当前的配置（内存中）
+- display saved-configuration 查看保存的配置（Flash中）
+- dir flash: 查看Flash中的文件
+
+- 配置标题消息
+- header login 配置在用户登陆前显示的标题消息
+- header shell 配置在用户登陆后显示的标题消息
+
+- 配置系统时钟
+- clock timezone 设置所在时区
+- clock datetime 设置当前时间和日期
+- clock daylight-saving-time 设置采用夏时制
+
+- 配置用户界面命令
+- idle-timeout 设置超时时间
+- screen-length 设置指定终端屏幕的临时显示行数
+- history-command max-size 设置历史命令缓冲区的大小
+
+- 配置系统界面命令
+- sysname xxx 配置设备名称，立即生效
 
 
 ## FTP与TFTP的区别
