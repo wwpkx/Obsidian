@@ -141,19 +141,9 @@ Info: Add a new user.
 
 # 命令
 所有命令都可以参考[官网](https://support.huawei.com/enterprise/zh/doc/EDOC1100222990/fd741f79)
-[Huawei] display rsa local-key-pair public
-[Huawei] rsa local-key-pair create
-[Huawei] user-interface vty 0 4
-[Huawei-ui-vty0-4] authentication-mode aaa
-[Huawei-ui-vty0-4]protocol inbound ssh
-[Huawei] aaa
-[Huawei-aaa] local-user AR password cipher huawei
-[Huawei-aaa] local-user AR ftp-directory flash:/
-[Huawei-aaa] local-user AR service-type ssh 
-[Huawei-aaa] local-user AR privilege level 15
-[Huawei]ssh user AR authentication-type password
-[Huawei]sftp server enable 
-
+> [!NOTE]
+> 设备初始化启动，询问是否进入**自动配置（一问一答模式）**，一般选择手动配置
+> Do you want to **stop** Auto-Config? [y/n]:Y
 
 ## 常用命令
 - delete 将文件删除到回收站
