@@ -1,3 +1,5 @@
+
+
 # VRP(Versatile Routing Platform,通用路由平台)
 - **华为**公司具有**完全自主知识产权**的**网络操作系统**
 - 可用运行**多硬件平台**之上(路由器、交换机、防火墙)
@@ -15,6 +17,21 @@
 
 ![](../photo/Pasted%20image%2020220928171735.png)
 ![](../photo/Pasted%20image%2020220928171842.png)
+
+# 设备内存
+- RAM        随机访问存储器（Random Access Memory，RAM），断电之后信息就丢失了
+- SDRAM   内存 （临时性存储） 断电后配置文件丢弃 （内存较大）
+- 
+- NVRAM   内存   断电后配置文件还在 （内存小）
+	- NVRAM（ Non-Volatile Random Access Memory） 是非易失性随机访问存储器
+	- 指断电后仍能保持数据的一种RAM
+- 
+- Flash       闪存    （永久性存储）
+	- nand flash，属于顺序访问（serial access）
+	- nor flash，属于是可以随机访问的
+- 
+- SD card  SD卡 （永久性存储）
+- USB  （移动存储）
 
 # 设备管理方式
 | 管理方式   | 登入方式    | 优点                   | 缺点       | 应用场景                        |
@@ -38,29 +55,15 @@
 
 ![](../photo/Pasted%20image%2020220928173200.png)
 
-# 文件系统
-## 设备内存
-- RAM        随机访问存储器（Random Access Memory，RAM），断电之后信息就丢失了
-- SDRAM   内存 （临时性存储） 断电后配置文件丢弃 （内存较大）
-- 
-- NVRAM   内存   断电后配置文件还在 （内存小）
-	- NVRAM（ Non-Volatile Random Access Memory） 是非易失性随机访问存储器
-	- 指断电后仍能保持数据的一种RAM
-- 
-- Flash       闪存    （永久性存储）
-	- nand flash，属于顺序访问（serial access）
-	- nor flash，属于是可以随机访问的
-- 
-- SD card  SD卡 （永久性存储）
-- USB  （移动存储）
-
-# 认证模式
+# 远程管理
 | 认证模式     | 描述 |
 | ------------ | ---- |
 | AAA模式      |   用户名和密码   |
 | 密码认证模式 |   所有的用户使用的都是同一个密码   |
 | 不认证模式             |   Console界面默认使用   |
 
+VTY
+aa
 
 ![命令行视图](../photo/Pasted%20image%2020220929093706.png)
 
