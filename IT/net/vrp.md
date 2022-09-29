@@ -141,9 +141,10 @@ Info: Add a new user.
 
 # 命令
 所有命令都可以参考[官网](https://support.huawei.com/enterprise/zh/doc/EDOC1100222990/fd741f79)
-> 
+```
 设备初始化启动，询问是否进入**自动配置（一问一答模式）**，一般选择手动配置
 Do you want to **stop** Auto-Config? [y/n]:Y
+```
 
 ## 常用命令
 - delete 将文件删除到回收站
