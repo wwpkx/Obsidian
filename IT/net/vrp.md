@@ -179,7 +179,26 @@ Info: Add a new user.
 ## 配置系统界面命令
 - sysname xxx 配置设备名称，立即生效
 
-## 配置文件相关命令
+## 配置信息
+display startup 命令用来查看设备本次及下次启动相关的系统文件和版本。
+- 系统软件
+- 配置文件
+- 补丁文件
+```
+显示本次及下次启动相关的文件名。
+
+<HUAWEI> **display startup**
+
+  Startup system software:                   flash:/basicsoftware.cc
+  Backup startup system software:            flash:/basicsoftware.cc
+  Next startup system software:              flash:/basicsoftware.cc
+  Startup saved-configuration file:          flash:/vrpcfg.zip
+  Next startup saved-configuration file:     flash:/vrpcfg.zip
+  Startup patch package:                     NULL
+  Next startup patch package:                NULL
+```
+
+### 配置文件
 - display startup 查看系统启动配置参数
 - display current-configuration 显示当前配置文件 
 - display saved-configuration 显示保存的配置文件
@@ -191,4 +210,7 @@ Info: Add a new user.
 - 
 - patch //Set patch file
 - compare configuration 比较当前配置和保存的配置
+
+### 系统文件
+- display startup 命令用来查看设备本次及下次启动相关的系统文件和版本。
 
