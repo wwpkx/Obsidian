@@ -7,8 +7,12 @@
         "id": "b4cc340e7b93420f",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "net/网络模型.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "net/网络模型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "net/网络模型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "net/网络模型.md"
+              }
             }
           },
           {
@@ -134,10 +142,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.0376892089844
+    "width": 260.0376892089844,
+    "collapsed": true
   },
   "active": "b4cc340e7b93420f",
   "lastOpenFiles": [
+    "net/常用术语.md",
     "net/0index.md",
     "net/vrp.md",
     "net/网络模型.md",
@@ -146,7 +156,6 @@
     "net/实验/0 STelnet实验.md",
     "net/实验/0 Telnet实验.md",
     "net/实验/1 SFTP Server.md",
-    "net/常用术语.md",
     "net/todo.md"
   ]
 }
