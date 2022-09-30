@@ -7,12 +7,8 @@
         "id": "b4cc340e7b93420f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "net/vrp.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "认证模式",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "net/vrp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "net/vrp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "net/vrp.md"
-              }
+              "state": {}
             }
           },
           {
@@ -146,10 +138,10 @@
   },
   "active": "b4cc340e7b93420f",
   "lastOpenFiles": [
-    "net/网络模型.md",
     "net/0index.md",
-    "net/目标.md",
     "net/vrp.md",
+    "net/网络模型.md",
+    "net/目标.md",
     "net/实验/1 FTP Server.md",
     "net/实验/0 STelnet实验.md",
     "net/实验/0 Telnet实验.md",
