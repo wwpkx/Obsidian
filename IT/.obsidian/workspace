@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "认证模式",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,20 +142,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.0376892089844,
-    "collapsed": true
+    "width": 260.0376892089844
   },
   "active": "b4cc340e7b93420f",
   "lastOpenFiles": [
+    "net/协议/文件传输.md",
+    "net/协议/邮箱.md",
+    "net/vrp.md",
+    "net/目标.md",
+    "net/实验/1 SFTP Server.md",
+    "net/实验/1 FTP Server.md",
     "net/网络模型.md",
     "net/0index.md",
     "net/常用术语.md",
-    "net/vrp.md",
-    "net/目标.md",
-    "net/实验/1 FTP Server.md",
-    "net/实验/0 STelnet实验.md",
-    "net/实验/0 Telnet实验.md",
-    "net/实验/1 SFTP Server.md",
-    "net/todo.md"
+    "net/实验/0 STelnet实验.md"
   ]
 }
