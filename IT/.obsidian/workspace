@@ -138,14 +138,13 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 260.0376892089844,
-    "collapsed": true
+    "width": 260.0376892089844
   },
-  "active": "b4cc340e7b93420f",
+  "active": "fb36a635f91e21ee",
   "lastOpenFiles": [
     "net/网络模型.md",
     "net/协议/文件传输.md",
