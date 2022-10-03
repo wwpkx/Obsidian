@@ -142,11 +142,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.0376892089844,
-    "collapsed": true
+    "width": 260.0376892089844
   },
   "active": "b4cc340e7b93420f",
   "lastOpenFiles": [
+    "net/实验/0 STelnet实验.md",
+    "net/网络模型.md",
     "net/协议/ARP.md",
     "net/协议/传输层.md",
     "net/协议/http.md",
@@ -154,8 +155,6 @@
     "net/协议/远程访问.md",
     "net/协议/邮箱.md",
     "net/协议/文件传输.md",
-    "net/HTTP.md",
-    "net/vrp.md",
-    "net/目标.md"
+    "net/HTTP.md"
   ]
 }
