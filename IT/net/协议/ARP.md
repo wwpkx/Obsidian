@@ -5,6 +5,7 @@
 ## ARP协议报文
 ![](../../photo/Pasted%20image%2020221003215650.png)
 
+![](../../photo/Pasted%20image%2020221003220417.png)
 ![ARP请求](../../photo/Pasted%20image%2020221003215227.png)
 ![ARP响应](../../photo/Pasted%20image%2020221003215324.png)
 
