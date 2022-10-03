@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "net/网络模型.md",
+            "file": "net/传输层.md",
             "mode": "source",
             "source": false
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f2d98fcf7cfa9ce9",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "net/网络模型.md",
+                "file": "net/传输层.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "net/网络模型.md",
+                "file": "net/传输层.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "net/网络模型.md"
+                "file": "net/传输层.md"
               }
             }
           },
@@ -148,13 +147,13 @@
   },
   "active": "b4cc340e7b93420f",
   "lastOpenFiles": [
+    "net/网络模型.md",
     "net/协议/文件传输.md",
     "net/协议/远程访问.md",
     "net/协议/邮箱.md",
     "net/协议/http.md",
     "net/协议/dns.md",
     "net/HTTP.md",
-    "net/网络模型.md",
     "net/实验/1 FTP Server.md",
     "net/vrp.md",
     "net/目标.md"
