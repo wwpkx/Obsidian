@@ -2,6 +2,12 @@
 - Address Resolution Protocol，即地址解析协议
 - 负责把目的主机的IP 地址解析成目的MAC地址
 
+## ARP协议报文
+![](../../photo/Pasted%20image%2020221003215650.png)
+
+![ARP请求](../../photo/Pasted%20image%2020221003215227.png)
+![ARP响应](../../photo/Pasted%20image%2020221003215324.png)
+
 ## 命令
 arp -a
 
