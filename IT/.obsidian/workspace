@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f2d98fcf7cfa9ce9",
@@ -144,7 +145,7 @@
     "direction": "horizontal",
     "width": 260.0376892089844
   },
-  "active": "fb36a635f91e21ee",
+  "active": "b4cc340e7b93420f",
   "lastOpenFiles": [
     "net/网络模型.md",
     "net/协议/文件传输.md",
