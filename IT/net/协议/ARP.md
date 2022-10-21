@@ -1,6 +1,6 @@
 # ARP
 - Address Resolution Protocol，即地址解析协议
-- 负责把目的主机的IP 地址解析成目的MAC地址
+- 目的主机的IP地址 --> 目的MAC地址
 
 ## ARP协议报文
 - ARP报文的总长度 64字节
