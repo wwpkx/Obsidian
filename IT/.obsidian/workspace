@@ -142,9 +142,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.0376892089844
+    "width": 260.0376892089844,
+    "collapsed": true
   },
-  "active": "b4cc340e7b93420f",
+  "active": "54cd865a2d691105",
   "lastOpenFiles": [
     "net/实验/0 Telnet实验.md",
     "net/实验/1 SFTP Server.md",
