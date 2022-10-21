@@ -16,8 +16,12 @@
 ![ARP请求](../../photo/Pasted%20image%2020221003215227.png)
 ![ARP响应](../../photo/Pasted%20image%2020221003215324.png)
 
+## ARP缓存表/ARP地址转换表
+获取到的MAC地址会存放在该表
+
 ## 命令
-arp -a
+arp -a  查看ARP缓存
+arp -d  清空ARP缓存
 
 ## ARP欺骗（ARP地址转换表）
 1. ARP请求为广播形式发送的
