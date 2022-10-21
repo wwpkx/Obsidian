@@ -18,6 +18,7 @@
 
 ## ARP缓存表/ARP地址转换表
 获取到的MAC地址会存放在该表
+![](../../photo/Pasted%20image%2020221021172614.png)
 
 ## 命令
 arp -a  查看ARP缓存
