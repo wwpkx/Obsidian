@@ -39,3 +39,21 @@ arp -d  清空ARP缓存
 4. 以太网协议中规定，主机间通信，**必须要知道目标主机的MAC地址**
 
 # IP冲突检测
+后果
+- 导致其中一台甚至是两台设备都被禁用或失去连接  
+  
+产生原因
+- 分配相同的静态IP地址
+- 静态IP地址在DHCP范围内，导致静态ip地址和DHCP服务器自动分配的相同
+- 很长时间不用，IP地址分配他人，现在启用aji qi在待机或休眠模式延长时间后，系统重新回到网络，重新分配IP地址，并在网络上使用  
+  
+TechTarget中国原创内容，原文链接： [https://searchnetworking.techtarget.com.cn/12-22100/](https://searchnetworking.techtarget.com.cn/12-22100/)  
+© TechTarget中国：https://www.techtarget.com.cn
+
+# DHCP
+
+TechTarget中国原创内容，原文链接： [https://searchnetworking.techtarget.com.cn/12-22100/](https://searchnetworking.techtarget.com.cn/12-22100/)  
+© TechTarget中国：https://www.techtarget.com.cn
+
+TechTarget中国原创内容，原文链接： https://searchnetworking.techtarget.com.cn/12-22100/
+© TechTarget中国：https://www.techtarget.com.cn

@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#DHCP范围内，分配导致本地DHCP服务器自动分配相同地址",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -144,7 +145,7 @@
     "direction": "horizontal",
     "width": 260.0376892089844
   },
-  "active": "54cd865a2d691105",
+  "active": "33080297c9b5498c",
   "lastOpenFiles": [
     "net/目标.md",
     "net/0index.md",
