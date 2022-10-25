@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "net/协议/数据链路层.md",
+                "file": "net/协议/ICMP.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f2d98fcf7cfa9ce9",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "net/协议/数据链路层.md",
+                "file": "net/协议/ICMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "net/协议/数据链路层.md",
+                "file": "net/协议/ICMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "net/协议/数据链路层.md"
+                "file": "net/协议/ICMP.md"
               }
             }
           },
@@ -169,10 +168,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "fb36a635f91e21ee",
+  "active": "59559800676a9b09",
   "lastOpenFiles": [
-    "net/协议/传输层.md",
     "net/协议/数据链路层.md",
+    "net/协议/传输层.md",
     "net/网络模型.md",
     "net/协议/ICMP.md",
     "net/协议/文件传输.md",
