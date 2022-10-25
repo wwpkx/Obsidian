@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "net/协议/ARP.md",
+                "file": "net/协议/远程访问.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "2b405634a96dbfe4",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.0"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "net/协议/ARP.md",
+                "file": "net/协议/远程访问.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "net/协议/ARP.md",
+                "file": "net/协议/远程访问.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "net/协议/ARP.md"
+                "file": "net/协议/远程访问.md"
               }
             }
           },
@@ -167,17 +156,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "2b405634a96dbfe4",
+  "active": "54cd865a2d691105",
   "lastOpenFiles": [
+    "net/网络模型.md",
+    "net/协议/ARP.md",
     "net/目标.md",
     "net/0index.md",
     "net/常用术语.md",
-    "net/网络模型.md",
     "net/todo.md",
     "net/vrp.md",
     "net/协议/文件传输.md",
     "net/协议/传输层.md",
-    "net/实验/1 SFTP Server.md",
-    "net/实验/1 FTP Server.md"
+    "net/实验/1 SFTP Server.md"
   ]
 }
