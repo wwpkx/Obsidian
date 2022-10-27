@@ -7,6 +7,7 @@
 # 原理
 ![](../../photo/Pasted%20image%2020221027145859.png)
 ![](../../photo/Pasted%20image%2020221027150834.png)
+![](../../photo/Pasted%20image%2020221027173330.png)
 
 
 ![](../../photo/Pasted%20image%2020220930144013.png)
