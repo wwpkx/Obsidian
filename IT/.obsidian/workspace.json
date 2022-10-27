@@ -18,14 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "59559800676a9b09",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ]
       }
@@ -158,11 +150,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5,
-    "collapsed": true
+    "width": 347.5
   },
-  "active": "54cd865a2d691105",
+  "active": "bd7f46e84c21c0d6",
   "lastOpenFiles": [
+    "net/协议/dns.md",
     "net/协议/传输层.md",
     "2022-10-25.md",
     "net/协议/ICMP.md",
@@ -171,7 +163,6 @@
     "net/协议/文件传输.md",
     "net/0index.md",
     "net/协议/远程访问.md",
-    "net/协议/ARP.md",
-    "net/目标.md"
+    "net/协议/ARP.md"
   ]
 }
