@@ -165,9 +165,6 @@
     "direction": "horizontal",
     "width": 260.5
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
   "active": "54cd865a2d691105",
   "lastOpenFiles": [
     "net/协议/数据链路层.md",
