@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "net/协议/ARP.md",
+                "file": "net/协议/DNS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "net/协议/ARP.md",
+                "file": "net/协议/DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "net/协议/ARP.md",
+                "file": "net/协议/DNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "net/协议/ARP.md"
+                "file": "net/协议/DNS.md"
               }
             }
           },
@@ -154,7 +154,8 @@
   },
   "active": "bd7f46e84c21c0d6",
   "lastOpenFiles": [
-    "net/协议/dns.md",
+    "net/协议/ARP.md",
+    "net/协议/DNS.md",
     "net/协议/传输层.md",
     "2022-10-25.md",
     "net/协议/ICMP.md",
@@ -162,7 +163,6 @@
     "net/网络模型.md",
     "net/协议/文件传输.md",
     "net/0index.md",
-    "net/协议/远程访问.md",
-    "net/协议/ARP.md"
+    "net/协议/远程访问.md"
   ]
 }
