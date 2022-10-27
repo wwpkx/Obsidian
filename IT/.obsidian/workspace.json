@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "net/协议/传输层.md",
+                "file": "net/协议/dns.md",
                 "mode": "source",
                 "source": false
               }
@@ -27,8 +27,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "net/协议/dns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "net/协议/dns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "net/协议/dns.md"
+              }
             }
           },
           {
@@ -155,14 +158,14 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 347.5
   },
-  "active": "54cd865a2d691105",
+  "active": "bd7f46e84c21c0d6",
   "lastOpenFiles": [
+    "net/协议/传输层.md",
     "2022-10-25.md",
     "net/协议/ICMP.md",
     "net/协议/数据链路层.md",
-    "net/协议/传输层.md",
     "net/网络模型.md",
     "net/协议/文件传输.md",
     "net/0index.md",
