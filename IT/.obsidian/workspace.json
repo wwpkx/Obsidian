@@ -158,9 +158,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 347.5,
+    "collapsed": true
   },
-  "active": "bd7f46e84c21c0d6",
+  "active": "54cd865a2d691105",
   "lastOpenFiles": [
     "net/协议/传输层.md",
     "2022-10-25.md",
