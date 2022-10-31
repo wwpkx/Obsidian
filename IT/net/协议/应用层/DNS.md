@@ -5,13 +5,13 @@
 -   好用的DNS服务器：**114.114.114.114, 223.5.5.5**
 
 # 原理
-![](../../photo/Pasted%20image%2020221027145859.png)
-![](../../photo/Pasted%20image%2020221027150834.png)
-![](../../photo/Pasted%20image%2020221027173330.png)
+![](../../../photo/Pasted%20image%2020221027145859.png)
+![](../../../photo/Pasted%20image%2020221027150834.png)
+![](../../../photo/Pasted%20image%2020221027173330.png)
 
-![](../../photo/Pasted%20image%2020221027174131.png)
+![](../../../photo/Pasted%20image%2020221027174131.png)
 
-![](../../photo/Pasted%20image%2020220930144013.png)
+![](../../../photo/Pasted%20image%2020220930144013.png)
 
 # 工具
 | 命令                   | 备注      |
