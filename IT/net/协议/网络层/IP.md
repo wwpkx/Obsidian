@@ -1,5 +1,5 @@
 # IP报文
-![](../../../photo/Pasted%20image%2020221031142207.png)
+![](../../../photo/Pasted%20image%2020221031152107.png)
 -   版本version：标明IP报文的版本（ v4 或 v6）
 -   头部长度header length：头部长度（最小为20B，最大为60B）
 -   总长度total length：头部长度和数据长度
