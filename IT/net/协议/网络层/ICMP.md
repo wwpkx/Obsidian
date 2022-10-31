@@ -6,8 +6,8 @@
 	- tracert 显示经过的**路径**
 
 # ICMP的格式
-![](../../photo/Pasted%20image%2020221025181043.png)
-![](../../photo/Pasted%20image%2020221025181132.png)
+![](../../../photo/Pasted%20image%2020221025181043.png)
+![](../../../photo/Pasted%20image%2020221025181132.png)
 
 # 应用
 ## ping
@@ -33,4 +33,4 @@ ping不同的返回提示语
 	- 再次发送过程将 TTL 加 1
 	- 直到目标响应或 TTL 达到最大值
 
-![](../../photo/Pasted%20image%2020221031101539.png)
+![](../../../photo/Pasted%20image%2020221031101539.png)
