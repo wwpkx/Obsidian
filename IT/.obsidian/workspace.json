@@ -27,11 +27,10 @@
             "id": "0cf9d29a515c5e45",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
+                "file": "IT/.obsidian/workspace.json",
+                "staged": false
               }
             }
           }
@@ -102,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +117,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "conflict-files-obsidian-git.md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,11 +167,11 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "54cd865a2d691105",
+  "active": "0cf9d29a515c5e45",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "net/协议/数据链路层/数据链路层.md",
     "net/协议/传输层/传输层.md",
-    "conflict-files-obsidian-git.md",
     "net/协议/传输层.md",
     "net/协议/数据链路层.md",
     "net/网络模型.md",
