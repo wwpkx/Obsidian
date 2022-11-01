@@ -7,5 +7,6 @@
 git rm -r –cached .idae
 ```
 
-# `git pull`和git fetch`
+# git pull和git fetch
 ![](../photo/Pasted%20image%2020221101174032.png)
+![](../photo/Pasted%20image%2020221101174211.png)
