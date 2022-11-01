@@ -11,8 +11,11 @@
             "id": "05ec65fbc487c2bc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "diff-view",
+              "state": {
+                "file": "workspace.json",
+                "staged": false
+              }
             }
           }
         ]
@@ -147,7 +150,7 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "54cd865a2d691105",
+  "active": "05ec65fbc487c2bc",
   "lastOpenFiles": [
     "net/协议/数据链路层/ARP.md",
     "net/协议/数据链路层/数据链路层.md",
@@ -156,6 +159,7 @@
     "net/协议/传输层.md",
     "net/协议/数据链路层.md",
     "net/网络模型.md",
+    "net/协议/ICMP.md",
     "net/协议/文件传输.md",
     "net/0index.md"
   ]
