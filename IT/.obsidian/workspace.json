@@ -4,18 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "fecb96f407f28945",
+        "id": "26ac2c69aabbf044",
         "type": "tabs",
         "children": [
           {
-            "id": "7e0b2e3ff2513c01",
+            "id": "05ec65fbc487c2bc",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "IT/.obsidian/workspace.json",
-                "staged": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -150,7 +147,7 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "7e0b2e3ff2513c01",
+  "active": "54cd865a2d691105",
   "lastOpenFiles": [
     "net/协议/数据链路层/ARP.md",
     "net/协议/数据链路层/数据链路层.md",
