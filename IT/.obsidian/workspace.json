@@ -11,8 +11,12 @@
             "id": "bd7f46e84c21c0d6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "net/协议/数据链路层/ARP.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -22,20 +26,8 @@
               "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "0cf9d29a515c5e45",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "IT/.obsidian/workspace.json",
-                "staged": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "net/协议/数据链路层/ARP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "net/协议/数据链路层/ARP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "net/协议/数据链路层/ARP.md"
+              }
             }
           },
           {
@@ -167,11 +163,11 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "0cf9d29a515c5e45",
+  "active": "bd7f46e84c21c0d6",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "net/协议/数据链路层/数据链路层.md",
     "net/协议/传输层/传输层.md",
+    "conflict-files-obsidian-git.md",
     "net/协议/传输层.md",
     "net/协议/数据链路层.md",
     "net/网络模型.md",
