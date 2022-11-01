@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "指定无法访问未获取到MAC地址",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,7 +163,7 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "bd7f46e84c21c0d6",
+  "active": "da9d213ed3185e9f",
   "lastOpenFiles": [
     "net/协议/数据链路层/数据链路层.md",
     "net/协议/传输层/传输层.md",
