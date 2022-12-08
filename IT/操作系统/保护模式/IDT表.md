@@ -6,7 +6,8 @@
 
 # #中断门
 - int/iret #IRET 
-	- 中断门提权，的堆栈会保存 SS ESP EFLAGS CS EIP(返回地址) 
+	- 中断门提权，堆栈会保存 SS ESP EFLAGS CS EIP(返回地址) 
+	- 中断门不提权，堆栈会保存  CS EFLAGS EIP(返回地址) 
 - 会将**IF标志位**清零。**比如不接受键盘输入**
 	- IF=0时，程序不再接收可屏蔽中断
 - 
@@ -58,3 +59,12 @@ IDT表
 - **IF位是否会被清零**是陷阱门与中断门**唯一**的区别
 
 ![](../../photo/Pasted%20image%2020221208163252.png)
+# #任务门
+## TSS任务段 #TSS
+- TSS是一块内存，该数据结构大小为**104字节**，共**26个DWORD属性**。
+- 通过TSS可以同时替换一堆寄存器，包括通用寄存器和段寄存器。
+- TSS结构是一个**链表**，**开头4字节指向上一个TSS段选择子**
+- ，TSS保存了
+0环1环2环的ESP、SS、cr3、eip、eflags、eax、ecx、edx、ebx、esp、esi、
+edi、es、cs、ss、ds、fs、gs、ldt寄存器。
+段描述符:S=0 	TYPE=10B1 是任务段描述符 G=0（Limit字节为单位）最大范围0xFFFFF
