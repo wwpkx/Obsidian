@@ -21,7 +21,7 @@ IDT表
 - 256x8-1=2047=0x7ff
 ![](../../photo/Pasted%20image%2020221208150434.png)
 
-# 构造中断门
-idtr=8003f400
+![](../../photo/Pasted%20image%2020221208161112.png)
+
 
 -
