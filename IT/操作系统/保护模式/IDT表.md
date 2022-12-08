@@ -61,14 +61,45 @@ IDT表
 ![](../../photo/Pasted%20image%2020221208163252.png)
 # #任务门
 - 任务门段描述符
-	- S=0 
-	- TYPE=10B1 是任务段描述符 G=0（Limit字节为单位）最大范围0xFFFFF
-数据结构:
 ![](../../photo/Pasted%20image%2020221208181721.png)
+
+## TSS段描述符
+	- G=0, Limit字节为单位,最大范围0xFFFFF/1M
+	- S=0, TYPE=10B1 是任务段描述符 
+![](../../photo/Pasted%20image%2020221208182521.png)
 
 ## TSS任务段 
 - TSS是一块内存，该数据结构大小为**104字节**，共**26个DWORD属性**。
 - 通过TSS可以同时替换一堆寄存器，包括通用寄存器和段寄存器。
 - TSS结构是一个**链表**，**开头4字节指向上一个TSS段选择子**
-![](../../photo/Pasted%20image%2020221208182521.png)
+```
+typedef struct TSS {
+	DWORD link;		
+	DWORD esp0; 
+	DWORD ss0;  
+	DWORD esp1; 
+	DWORD ss1;  
+	DWORD esp2;
+	DWORD ss2; 		
+	DWORD cr3;
+	DWORD eip;
+	DWORD eflags;
+	DWORD eax;
+	DWORD ecx;
+	DWORD edx;
+	DWORD ebx;
+	DWORD esp;
+	DWORD ebp;
+	DWORD esi;
+	DWORD edi;
+	DWORD es;
+	DWORD cs;
+	DWORD ss;
+	DWORD ds;
+	DWORD fs;
+	DWORD gs;
+	DWORD ldt;//LDT局部描述符表，windows没有使用S=0是系统段
+	DWORD io_map;//IO权限位图
+} TSS;
+```
 
