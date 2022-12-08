@@ -74,6 +74,7 @@ IDT
 	- 段描述符.limit = TSS这块内存的大小，**104字节**
 - tss任务段
 	- 任务切换【替换一套寄存器】
+	- 使用TSS段中的值修改寄存器
 
 ## 任务门段描述符
 - **存在于IDT中**
@@ -125,4 +126,5 @@ typedef struct TSS {
 	DWORD io_map;//IO权限位图
 } TSS;
 ```
+![](../../photo/Pasted%20image%2020221208204104.png)
 
