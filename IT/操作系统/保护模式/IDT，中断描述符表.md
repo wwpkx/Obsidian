@@ -65,7 +65,7 @@ IDT
 ![](../../photo/Pasted%20image%2020221208185721.png)
 任务门执行过程
 1. INT 0x20
-2. 查IDT表，找到中断门描述符（任务门）
+2. 查IDT，找到中断门描述符（此处为任务门）
 3. 查看任务门中的TSS段选择子，查GDT表，找到任务段描述符
 4. 将任务段描述符加载到TR寄存器，之后通过TR寄存器指向的104字节的TSS段，将全部寄存器的值进行修改。
 5. IRETD返回
@@ -82,7 +82,7 @@ IDT
 - TSS结构是一个**链表**，**开头4字节指向上一个TSS段选择子**
 ```
 typedef struct TSS {
-	DWORD link;		
+	DWORD link;	 //指向上一个TSS段选择子	
 	DWORD esp0; 
 	DWORD ss0;  
 	DWORD esp1; 
