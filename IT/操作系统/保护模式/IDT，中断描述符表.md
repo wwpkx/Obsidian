@@ -61,11 +61,14 @@ IDT
 ![](../../photo/Pasted%20image%2020221208163252.png)
 # #任务门
 ## 任务门段描述符
-![](../../photo/Pasted%20image%2020221208181721.png)
+- **存在于IDT中**
+- 
+![](../../photo/Pasted%20image%2020221208185721.png)
 
 ## TSS段描述符
-	- G=0, Limit字节为单位,最大范围0xFFFFF/1M
-	- S=0, TYPE=10B1 是任务段描述符 
+- 存在于GDT全局描述符表中
+- G=0, Limit字节为单位,最大范围0xFFFFF/1M
+- S=0, TYPE=10B1 是任务段描述符 
 ![](../../photo/Pasted%20image%2020221208182521.png)
 
 ## TSS任务段 
