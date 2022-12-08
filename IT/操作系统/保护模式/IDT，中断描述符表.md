@@ -106,7 +106,7 @@ typedef struct TSS {
 	DWORD ds;
 	DWORD fs;
 	DWORD gs;
-	DWORD ldt;//LDT局部描述符表，windows没有使用S=0是系统段
+	DWORD ldt;//LDT局部描述符表，windows没有使用
 	DWORD io_map;//IO权限位图
 } TSS;
 ```
