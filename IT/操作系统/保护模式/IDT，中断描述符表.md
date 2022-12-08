@@ -42,7 +42,8 @@ IDT
 - 256x8-1=2047=0x7ff
 ![](../../photo/Pasted%20image%2020221208150434.png)
 
-![](../../photo/Pasted%20image%2020221208161112.png)
+![](../../photo/Pasted%20image%2020221208210833.png)
+
 ![](../../photo/Pasted%20image%2020221208163140.png)
 ## 中断门的Call调用流程
 ![](../../photo/Pasted%20image%2020221208171318.png)
