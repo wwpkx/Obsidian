@@ -4,6 +4,10 @@ IDT表可以包含3种门描述符
 - 陷阱门描述符
 
 # 中断门
+- int/iretd
+- 会将**IF标志位**清零
+	- 
+
 Windows使用中断门
 - 系统调用
 - 异常中断
@@ -22,6 +26,7 @@ IDT表
 ![](../../photo/Pasted%20image%2020221208150434.png)
 
 ![](../../photo/Pasted%20image%2020221208161112.png)
+![](../../photo/Pasted%20image%2020221208163140.png)
+# 陷阱门
 
-
--
+![](../../photo/Pasted%20image%2020221208163252.png)
