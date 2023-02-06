@@ -5,3 +5,8 @@
 - 官方提供了大量的库，比如串口、网络、视频、可视化、声音、GUI、3D动画等等
 - 数据视觉化（Data Visualization）
 - 多用于**创意** 和 **视觉化编程学习**
+
+# IDE
+- 多语言支持
+	- 通过mode支持，比如 pythonMode
+	- 位置：processing-4.1.2/modes
