@@ -1,5 +1,11 @@
 - Arduino是电子原型平台
 	- 硬件（各种型号的 Arduino板）
-	- 软件（Arduino IDE）
+	- 软件（[Arduino IDE](https://www.arduino.cc/en/software)）
+		- 源码后缀，.ino
 
-- a
+- Arduino IDE - win
+	- 可以直接使用zip包
+	- 安装驱动
+		- 连接板子
+		- 在设备管理中，找到新的硬件（浏览计算机以查找驱动程序软件）
+		- 在解压文件中找到 **ArduinoUno.inf** 文件
