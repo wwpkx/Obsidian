@@ -2,6 +2,7 @@
 	- 硬件（各种型号的 Arduino板）
 	- 软件（[Arduino IDE](https://www.arduino.cc/en/software)）
 		- 源码后缀，.ino
+		- 使用c/c++语法
 
 - Arduino IDE - win
 	- 可以直接使用zip包
