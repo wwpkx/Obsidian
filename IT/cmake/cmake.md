@@ -2,6 +2,7 @@
 - 不同IDE集成的**make遵循的规范和标准不同**，导致其语法、格式不同
 - 跨平台，cmake的工具链：cmake+make
 - 每个目录一个CMakeLists.txt
+- [CMake简明教程(中文版) - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/492932151)
 
 ![](../photo/Pasted%20image%2020230228094352.png)
 
