@@ -29,7 +29,7 @@
 	- make install DESTDIR=/tmp/test
 	- ./configure –prefix=/usr
 
-## 外层CMakeLists.txt
+## CMakeLists.txt
 ```
 # 设置工程的名称
 # PROJECT(HELLO C CXX) # 支持C和C++
@@ -52,11 +52,18 @@ MESSAGE(STATUS "This is SOURCE dir "${HELLO_SOURCE_DIR})
 # 第一个参数, 表示生成的可执行文件对应的文件名
 # 第二个参数, 表示对应的源文件
 ADD_EXECUTABLE(hello ${SRC_LIST})
+
+# 向当前工程添加源文件子目录
+# ADD_SUBDIRECTORY(source_dir [binary_dir] [EXCLUDE_FROM_ALL])
 ```
 
-## src下的CMakeLists.txt
 ## 静态库与动态库构建
 ```
+# ADD_LIBRARY 指令构建动态库和静态库
+# SET_TARGET_PROPERTIES 设置目标属性
+# 	同时构建同名的静态库和动态库。
+# 	控制动态版本库
+
 # 需要改变目标存放路径
 # 定义在生成目标目录下的CMakeLists.txt
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
