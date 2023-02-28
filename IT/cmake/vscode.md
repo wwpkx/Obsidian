@@ -9,9 +9,48 @@
 - 定义最终目标
 - 以及生成目标需要执行的tasks
 
-配置项
-- miDebuggerPath : gdb的路径
-- 
+```
+{  
+  "version": "0.2.0",  
+  "configurations": [  
+    {  
+      "name": "(gdb) Launch", // 配置名称，将会在启动配置的下拉菜单中显示  
+      "type": "cppdbg",     // 配置类型，这里只能为cppdbg  
+      "request": "launch",  // 请求配置类型，可以为launch（启动）或attach（附加）  
+1      "program": "${workspaceFolder}/build/xx.exe",// 将要进行调试的程序的路径  
+      "args": [],       // 程序调试时传递给程序的命令行参数，一般设为空即可  
+      "stopAtEntry": false,   // 设为true时程序将暂停在程序入口处，一般设置为false  
+      "cwd": "${workspaceFolder}", // 调试程序时的目录，一般为${workspaceFolder}, 即代码所在目录  
+      "environment": [],  
+      "externalConsole": true, // 调试时是否显示控制台窗口，一般设置为true显示控制台  
+      "MIMode": "gdb",  
+1      "miDebuggerPath": "d:/mingw64/bin/gdb.exe", // gdb路径
+1      "preLaunchTask": "g++", // 调试会话开始前执行的任务，一般为编译程序，c++为g++, c为gcc  
+      // gdb运行需要的参数
+      "setupCommands": [  
+        {   
+          "description": "Enable pretty-printing for gdb",  
+          "text": "-enable-pretty-printing",  
+          "ignoreFailures": true  
+        }  
+      ],
+      // gdb连接后的设置
+      "postRemoteConnectCommands": [    
+        {
+          "description": "加载内核符号文件",
+          "text": "add-symbol-file ./build/source/kernel/kernel.elf 0x10000",
+          "ignoreFailures": false
+        },
+        {
+          "description": "运行至0x7c00",
+          "text": "-exec-until *0x7c00",
+          "ignoreFailures": false
+        }	
+      ]				
+    }  
+  ] 
+}	
+```
 
 ![](../photo/Pasted%20image%2020230228181409.png)
 
