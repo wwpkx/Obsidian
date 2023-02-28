@@ -1,5 +1,7 @@
 # 说明
 - 不同IDE集成的**make遵循的规范和标准不同**，导致其语法、格式不同
+- 跨平台，cmake的工具链：cmake+make
+- 每个目录一个CMakeLists.txt
 
 ![](../photo/Pasted%20image%2020230228094352.png)
 
@@ -20,6 +22,8 @@
 		- 编译文件与源文件混杂在一起
 	- **外部构建（推荐）**
 		- 新建build文件夹，在build文件夹中执行 **cmake ..**
+		- `PROJECT_SOURCE_DIR`，工程路径，/work
+		- `PROJECT_BINARY_DIR`， 编译路径，/work/build。
 - 使用命令 **make**
 - 使用命令 **make install**
 	- make install DESTDIR=/tmp/test
