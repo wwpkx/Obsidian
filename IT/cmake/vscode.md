@@ -8,7 +8,13 @@
 ## launch.json
 - 定义最终目标
 - 以及生成目标需要执行的tasks
+
+配置项
+- miDebuggerPath : 对应框架的gdb的路径
+- 
+
 ![](../photo/Pasted%20image%2020230228181409.png)
+
 ## tasks.json
 - 配置可以执行的tasks
 
