@@ -3,6 +3,11 @@
 
 ![](../photo/Pasted%20image%2020230228094352.png)
 
+# 语法
+- 变量使用 ${} 取值
+- 指令(参数 1 参数 2...)
+- 指令不区分大小写（推荐大写），参数和变量区分大小写
+
 # 使用
 - 写CMakeLists.txt
 - 使用命令 **cmake .**  //目的，生成makefile文件
@@ -12,8 +17,9 @@
 		- 新建build文件夹，在build文件夹中执行 **cmake ..**
 - 使用命令 **make**
 - 使用命令 **make install**
+	- make install DESTDIR=/tmp/test
+	- ./configure –prefix=/usr
 
-# 语法
-- 变量使用 ${} 取值
-- 指令(参数 1 参数 2...)
-- 指令不区分大小写（推荐大写），参数和变量区分大小写
+## 外层CMakeLists.txt
+
+## src下的CMakeLists.txt
