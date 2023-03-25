@@ -17,3 +17,4 @@
 - 读入setup模块
 - 读入system模块
 ![](../photo/Pasted%20image%2020230325103917.png)
+![](../photo/Pasted%20image%2020230325105317.png)
