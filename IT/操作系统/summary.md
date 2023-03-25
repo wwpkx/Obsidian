@@ -17,8 +17,3 @@
 - 读入setup模块
 - 读入system模块
 ![](../photo/Pasted%20image%2020230325103917.png)
-![](../photo/Pasted%20image%2020230325103315.png)
-![](../photo/Pasted%20image%2020230325103342.png)
-![](../photo/Pasted%20image%2020230325103654.png)
-![](../photo/Pasted%20image%2020230325103725.png)
-![](../photo/Pasted%20image%2020230325103744.png)
