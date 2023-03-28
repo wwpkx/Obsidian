@@ -6,7 +6,7 @@
 ```
 $ gdb tools/system
 (gdb) set architecture i386:x86-64
-(gdb) target remote:1234
+(gdb) target remote :1234
 ```
 - 参考，其中代码可以直接使用qemu和bochs调试
 	- [GitHub - yuan-xy/Linux-0.11: The old Linux kernel source ver 0.11 which has been tested under modern Linux, Mac OSX and Windows.](https://github.com/yuan-xy/Linux-0.11)
