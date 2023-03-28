@@ -2,6 +2,12 @@
 - make
 - make start，启动qumu
 - make debug，使用qemu调试
+```
+qemu-system-x86_64 -m 16M -boot a -fda linux-0.11\Image -hda hdc-0.11.img
+qemu-system-x86_64 -m 16M -boot a -fda linux-0.11\Image -hda hdc-0.11.img -s -S
+qemu-system-i386 -m 16M -boot a -fda linux-0.11\Image -hda hdc-0.11.img
+qemu-system-i386 -m 16M -boot a -fda linux-0.11\Image -hda hdc-0.11.img -s -S
+```
 - 使用gdb进行远端调试
 ```
 $ gdb tools/system
