@@ -46,3 +46,9 @@ $ gdb tools/system
   ]
 }
 ```
+# vscode + qemu +remotessh
+- 安装remotessh插件
+- 连接到远端服务器
+- 在文件中打开工程
+- 调试
+![](../photo/Pasted%20image%2020230411173847.png)
