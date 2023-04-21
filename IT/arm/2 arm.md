@@ -8,3 +8,4 @@
 | 210  | A8    | ARMv7 |
 
 ![](../photo/Pasted%20image%2020230421164534.png)
+![](../photo/Pasted%20image%2020230421165211.png)
