@@ -12,5 +12,6 @@
 # 裸机开发流程  
 ![](../photo/Pasted%20image%2020230421100823.png)
 ![](../photo/Pasted%20image%2020230421100919.png)
+
 # ARM Linux的启动全过程
 ![](../photo/Pasted%20image%2020230424190444.png)
