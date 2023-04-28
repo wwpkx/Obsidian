@@ -12,3 +12,8 @@
 
 ![](../photo/Pasted%20image%2020230428183638.png)
 ![](../photo/Pasted%20image%2020230428183749.png)
+
+# 第二阶段
+
+
+![](../photo/Pasted%20image%2020230428184612.png)
