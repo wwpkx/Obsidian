@@ -10,5 +10,5 @@
 
 # U-Boot工作流程分析
 
-![](../photo/Pasted%20image%2020230423105115.png)
-![](../photo/Pasted%20image%2020230423114609.png)
+![](../photo/Pasted%20image%2020230428183638.png)
+![](../photo/Pasted%20image%2020230428183749.png)
