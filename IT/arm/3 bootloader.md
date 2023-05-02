@@ -15,6 +15,23 @@
 
 # u-boot使用
 ![](../photo/Pasted%20image%2020230502101818.png)
+## 编译
+- 为了方便编译，可以配置**Makefile文件中的ARCH和CROSS_COMPILE**变量的值
+```
+// ARCH 指定架构
+// CROSS_COMPILE 用于指定编译器, arm-linuxgnueabihf-gcc
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- distclean  #清除工程
+
+// mx6ull_14x14_ddr512_emmc_defconfig 是配置文件，由恩智浦官方提供（在路径uboot/configs）
+// 在根目录生成一个.config文件
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- mx6ull_14x14_ddr512_emmc_defconfig
+
+// V=1 用于设置编译过程的信息输出 级别
+// -j 用于设置主机使用多少线程编译uboot
+// 编译完成后会产生.bin文件，在编译中会添加I.MX6ULL的头部信息产生.imx文件
+make V=1 ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -j1
+```
+
 ## 环境变量
 - printenv 查看环境变量
 - setenv 添加、修改、删除环境变量
