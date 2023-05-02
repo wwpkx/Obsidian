@@ -15,6 +15,26 @@
 
 # u-boot使用
 ![](../photo/Pasted%20image%2020230502101818.png)
+```
+U-Boot使用方法
+1. 配置U-Boot 
+TQ210:    make TQ210_config
+Smart210:   make smart210_config
+OK210:     make forlinx_linux_config
+OK6410:    make forlinx_nand_ram256_config
+Tiny6410:   make tiny6410_config
+TQ2440:   make TQ2440_config
+Mini2440:   make mini2440_config
+
+2. 下载与运行
+TQ210:    tftp 0xc0008000 uImage
+Smart210:  tftp 0x20000000 uImage
+OK210:     tftp 0xc0008000 uImage 
+OK6410:    tftp 0xc0008000 uImage
+Tiny6410:   tftp 0xc0008000 uImage
+TQ2440:    tftp 0x31000000 uImage
+Mini2440:   tftp 0x31000000 uImage
+```
 ## 编译
 - 为了方便编译，可以配置**Makefile文件中的ARCH和CROSS_COMPILE**变量的值
 ```
