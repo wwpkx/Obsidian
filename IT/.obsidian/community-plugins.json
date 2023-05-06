@@ -1,8 +1,7 @@
 [
   "obsidian-git",
-  "obsidian-excel-to-markdown-table",
   "table-editor-obsidian",
-  "ProxyGithub",
   "obsidian-clipper",
-  "obsidian-local-images-plus"
+  "obsidian-local-images-plus",
+  "oz-clear-unused-images"
 ]
