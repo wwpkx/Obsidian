@@ -13,6 +13,6 @@
   "showNotifications": true,
   "include": ".*\\.md",
   "mediaRootDir": "_resources/${notename}",
-  "useWikilinks": false,
+  "useWikilinks": true,
   "disAddCom": false
 }
