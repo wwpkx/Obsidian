@@ -19,7 +19,3 @@
 - www.arduino.cc
 - 第一次将Arduino板连接到电脑上，会出现Found New Hardware Wizard（发现新硬件向导）的提示
 
-# Tinkercad
-- 在线平台，[tinkercad](https://www.tinkercad.com/)，可以学习3d和电路
-- 其中的电路部分
-- 还包含了3d设计
