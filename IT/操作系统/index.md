@@ -29,7 +29,7 @@
 ### [文件系统](../Linux%20kernel/内核/文件系统.md)
 
 ## 驱动
-### [4.0.2 内核编译-arm](../Linux%20kernel/内核/4.0.2%20内核编译-arm.md)
+### [4.0.2 内核编译-arm](../Linux%20kernel/4.0.2%20内核编译-arm.md)
 ### [内存函数](../Linux%20kernel/内核/内存函数.md)
 ### [设备驱动](../Linux%20kernel/内核/设备驱动.md)
 
