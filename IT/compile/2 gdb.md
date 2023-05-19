@@ -73,21 +73,17 @@
 | Variables   |                         |
 |---------------------|-------------------------|
 | print variable      | 打印指定变量的值。               |
-| p variable          |                         |
 | p file::variable    |                         |
 | p *array-var@length | 打印arrary-var中的前length项。 |
 | **p/x var**             | 以十六进制打印整数变量var。         |
 | **p/o var**             | 把变量var作为八进制数打印。         |
 | **p/t var**             | 以整数二进制的形式打印var变量的值。     |
+| **x/w address**         | 打印指定的地址，以四字节一组的方式。      |
 | x/b address         |                         |
-| x/b &variable       |                         |
 | p/c variable        | 当字符打印。                  |
 | p/d var             | 把变量var当作有符号整数打印。        |
 | p/u var             | 把变量var作为无符号整数打印。        |
 | p/f variable        | 以浮点数格式打印变量var。          |
-| p/a variable        | 打印十六进制形式的地址。            |
-| x/w address         | 打印指定的地址，以四字节一组的方式。      |
-| x/4b &variable      | |
 
 | Stack           |                                         |
 |-----------------|-----------------------------------------|
