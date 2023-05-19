@@ -1,10 +1,3 @@
-
-[2.1.1 继电器](2.1.1%20继电器.md)
-
-# 光敏电阻
-![](../../photo/Pasted%20image%2020221128115425.png)
-
-
 # 红外线探测器PIR
 被动红外线探测器（Passive infrared detectors）
 ![](../../photo/Pasted%20image%2020221128113826.png)
