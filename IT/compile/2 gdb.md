@@ -18,7 +18,17 @@
 	- -q
 
 # GDB命令
-| 命令                           | 描述         |
+| Source Code              |                    |
+|--------------------------|--------------------|
+| where                    | 显示当前的行号和所处的函数。     |
+| list                     | 列出相应的源代码。          |
+| set listsize count       | 设置list命令打印源代码时的行数。 |
+| show listsize            |                    |
+| directory directory-name | 在源代码路径前添加指定的目录。    |
+| show directories         |                    |
+| directory                | 当后面没有参数时，清除源代码目录。  |
+
+| info                           | 描述         |
 |------------------------------|------------|
 | info breakpoints             | 列出断点。      |
 | info break                   | 列出断点号。     |
