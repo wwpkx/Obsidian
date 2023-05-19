@@ -17,3 +17,16 @@
 - 安静模式
 	- -q
 
+# GDB命令
+| 命令                           | 描述         |
+|------------------------------|------------|
+| info breakpoints             | 列出断点。      |
+| info break                   | 列出断点号。     |
+| info break breakpoint-number | 列出指定断点的信息。 |
+| info watchpoints             | 列出观察点。     |
+| info registers               | 列出使用的寄存器。  |
+| info threads                 | 列出当前的线程。   |
+| info set                     | 列出可以设置的选项  |
+
+
+
