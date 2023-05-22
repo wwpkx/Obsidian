@@ -1,12 +1,65 @@
+# 环境变量配置文件
+![](../photo/Pasted%20image%2020230522144434.png)
+
 ```
 /etc/profile
 /etc/profile.d/*.sh
 ~/.bash_profile
 ~/.bashrc
 /etc/bashrc
-```
-![](../photo/Pasted%20image%2020230522144434.png)
 
+/etc/profile的作用：
+- USER变量：
+- LOGNAME变量：
+- MAIL变量：
+- PATH变量：
+- HOSTNAME变量：
+- HISTSIZE变量：
+- umask：
+- 调用/etc/profile.d/*.sh文件
+
+~/.bash_profile的作用
+- 调用了~/.bashrc文件。
+- 在PATH变量后面加入了“:$HOME/bin”这个目录
+
+~/.bashrc的作用
+- 定义默认别名
+- 调用/etc/bashrc
+
+/etc/bashrc的作用
+- PS1变量
+- umask
+- PATH变量
+- 调用/etc/profile.d/*.sh文件
+```
+# ~/.bash_logout
+```
+1、注销时生效的环境变量配置文件
+~/.bash_logout
+
+2、 其他配置文件
+~/bash_history
+
+3、 Shell登录信息
+  1）本地终端欢迎信息： /etc/issue
+	转义符 作 用
+	\d 显示当前系统日期
+	\s 显示操作系统名称
+	\l 显示登录的终端号， 这个比较常用。
+	\m 显示硬件体系结构， 如i386、 i686等
+	\n 显示主机名
+	\o 显示域名
+	\r 显示内核版本
+	\t 显示当前系统时间
+	\u 显示当前登录用户的序列号
+
+  2）远程终端欢迎信息： /etc/issue.net
+	- 转义符在/etc/issue.net文件中不能使用
+	- 是否显示此欢迎信息，由ssh的配置文件/etc/ssh/sshd_config决定，加入“Banner/etc/issue.net”行才能显示（记得重启SSH服务）
+
+  3）登陆后欢迎信息： /etc/motd
+	不管是本地登录，还是远程登录，都可以显示此欢迎信息
+```
 # 设置环境变量
 ```
 export 变量名=变量值  
