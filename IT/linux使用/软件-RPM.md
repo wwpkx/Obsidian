@@ -5,6 +5,18 @@
 	- “i386”：是软件所运行的硬件平台
 	- “rpm”：文件扩展名，代表RPM包
 
+# RPM包安装位置
+- /etc/              配置文件安装目录
+- /usr/bin/          可执行的命令安装目录
+- /usr/lib/          程序所使用的函数库保存位置
+- /usr/share/doc/    基本的软件使用手册保存位置
+- /usr/share/man/    帮助文件保存位置
+
+# RPM包安装的服务
+- 可以使用**系统服务管理命令（service）**来管理
+	- /etc/rc.d/init.d/httpd start
+	- service httpd start
+
 # RPM包依赖性
 - 树形依赖： abc
 - 环形依赖： abca
