@@ -73,4 +73,25 @@ rpm –V 已安装的包名
 
 # 从RPM包中提取文件
 - 当某些文件损坏或或者丢失
-- 从
+- 从RPM包中提取文件，放到合适的地方
+
+```
+rpm2cpio 包全名 | cpio -idv 文件路径
+- rpm2cpio #将rpm包转换为cpio格式的命令
+- cpio #是一个标准工具，它用于创建软件档案文件和从档案文件中提取文件
+
+cpio 选项 < [文件|设备]
+	-i： copy-in模式，还原
+	-d：还原时自动新建目录
+	-v：显示还原过程
+
+[root@localhost ~]# rpm -qf /bin/ls   #查询ls命令属于哪个软件包
+[root@localhost ~]# mv /bin/ls /tmp/  #造成ls命令误删除假象
+
+[root@localhost ~]# rpm ‐qf /bin/ls  #查询文件所属的软件包
+#提取RPM包中ls命令到当前目录的/bin/ls下
+[root@localhost ~]# rpm2cpio /mnt/cdrom/Packages/coreutils-8.4-19.el6.i686.rpm | cpio -idv ./bin/ls
+#把ls命令复制会/bin/目录，修复文件丢失
+[root@localhost ~]# cp /root/bin/ls /bin/
+
+```
