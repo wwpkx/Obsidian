@@ -5,6 +5,7 @@
 ~/.bashrc
 /etc/bashrc
 ```
+![](../photo/Pasted%20image%2020230522144434.png)
 
 # 设置环境变量
 ```
