@@ -9,6 +9,27 @@
 - gpgcheck 如果是1是指RPM的数字证书生效，如果是0则不生效
 - gpgkey 数字证书的公钥文件保存位置。不用修改
 ```
+## 光盘yum源
+```
+1）挂载光盘
+[root@localhost ~]# mount /dev/cdrom /mnt/cdrom/
+
+2）让网络yum源文件失效
+[root@localhost ~]# cd /etc/yum.repos.d/
+[root@localhost yum.repos.d]# mv CentOS-Base.repo CentOS-Base.repo.bak
+[root@localhost yum.repos.d]# mv CentOS-Debuginfo.repo CentOS-Debuginfo.repo.bak
+[root@localhost yum.repos.d]# mv CentOS-Vault.repo CentOS-Vault.repo.bak
+
+3）修改光盘yum源文件
+[root@localhost yum.repos.d]# vim CentOS-Media.repo
+[c6-media]
+name=CentOS-$releasever - Media
+baseurl=file:///mnt/cdrom #地址为你自己的光盘挂载地址
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+```
+
 # 常用yum命令
 ```
 1）查询
@@ -36,3 +57,17 @@
 	remove 卸载
 	-y 自动回答yes
 ```
+
+# YUM软件组管理命令
+- 一组相关功能软件
+```
+[root@localhost ~]# yum grouplist
+#列出所有可用的软件组列表
+
+[root@localhost ~]# yum groupinstall 软件组名
+#安装指定软件组，组名可以由grouplist查询出来
+
+[root@localhost ~]# yum groupremove 软件组名
+#卸载指定软件组
+```
+![](../photo/Pasted%20image%2020230522103517.png)
