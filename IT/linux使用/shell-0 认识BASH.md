@@ -36,24 +36,6 @@ $    得到变量的值， 。如$name
 \    转义符， 跟在\之后的特殊符号将失去特殊含义， 变为普通字符。
 
 ```
-# 本地变量
-```
-变量定义
-[root@localhost ~]# name="shen chao"
-[root@localhost ~]# aa=123
-[root@localhost ~]# aa="$aa"456
-[root@localhost ~]# aa=${aa}789
-
-变量调用
-[root@localhost ~]# echo $name
-
-变量查看
-[root@localhost ~]# set
-
-变量删除
-[root@localhost ~]# unset name
-```
-
 # 设置环境变量
 ```
 export 变量名=变量值  
@@ -112,3 +94,54 @@ for y in "$@"  #$@中的每个参数都看成是独立的，所以“$@”中有
 	done
 ```
 
+# 本地变量
+```
+变量定义
+[root@localhost ~]# name="shen chao"
+[root@localhost ~]# aa=123
+[root@localhost ~]# aa="$aa"456
+[root@localhost ~]# aa=${aa}789
+
+变量调用
+[root@localhost ~]# echo $name
+
+变量查看
+[root@localhost ~]# set
+
+变量删除
+[root@localhost ~]# unset name
+```
+
+# 接收键盘输入
+```
+read [选项] [变量名]
+选项：
+	-p “提示信息”：在等待read输入时，输出提示信息
+	-t 秒数： read命令会一直等待用户输入，使用此选项可以指定等待时间
+	-n 字符数： read命令只接受指定的字符数，就会执行
+	-s： 隐藏输入的数据，适用于机密信息的
+
+
+read -t 30 -p "Please input your name: " name
+#提示“请输入姓名”并等待30秒，把用户的输入保存入变量name中
+
+read -s -t 30 -p "Please enter your age: " age
+#年龄是隐私，所以我们用“-s”选项隐藏输入
+
+read -n 1 -t 30 -p "Please select your gender[M/F]: " gender
+#使用“-n 1”选项只接收一个输入字符就会执行（都不用输入回车）
+echo -e "\n"
+echo "Sex is $gender"
+```
+# declare声明变量类型
+```
+declare [+/-][选项] 变量名
+选项：
+	-： 给变量设定类型属性
+	+： 取消变量的类型属性
+	-i： 将变量声明为整数型（integer）
+	-x： 将变量声明为环境变量
+	-p： 显示指定变量的被声明的类型
+```
+
+# 变量测试与内容替换
