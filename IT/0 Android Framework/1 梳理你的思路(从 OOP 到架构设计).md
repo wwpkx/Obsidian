@@ -11,3 +11,5 @@
 	- Use Case-driven
 - -Centered
 	- Architecture-centered，一切软件开发的活动都**围绕着**架构
+
+![](../photo/Pasted%20image%2020230603152754.png)
