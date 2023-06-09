@@ -9,7 +9,7 @@
 | 序列类型：  | list, tuple, range           |
 | 映射类型：  | dict                         |
 | 集合类型：  | set, frozenset               |
-| 布尔类型：  | bool                         |
+| 布尔类型：  | bool (True 或 False)                        |
 | 二进制类型： | bytes, bytearray, memoryview |
 
 | 函数                     | 说明                            |
