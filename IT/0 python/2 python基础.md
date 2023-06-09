@@ -2,23 +2,15 @@
 - 字符串是以Unicode编码
 - `#`开头，单行注释；'''包裹，多行注释
 
-# 数据类型
-```
-Numbers（数字)
-int(有符号整型)
-long(长整型[也可以代表八进制和十六进制])
-float(浮点型)
-complex(复数)
-
-布尔类型
-True
-False
-
-String(字符串)
-List(列表)
-Tuple(元组)
-Dictionary(字典)
-```
+# 数据类型，type()
+| 文本类型：  | str                          |
+|--------|------------------------------|
+| 数值类型：  | int, float, complex          |
+| 序列类型：  | list, tuple, range           |
+| 映射类型：  | dict                         |
+| 集合类型：  | set, frozenset               |
+| 布尔类型：  | bool                         |
+| 二进制类型： | bytes, bytearray, memoryview |
 
 | 函数                     | 说明                            |
 |------------------------|-------------------------------|
