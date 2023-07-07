@@ -18,6 +18,7 @@
 - vscode status bar，会生出调试功能项目
 - 点击初始化gcc
 - 点击build编译项目
+	-  编译成功会有提示： `[build] Build finished with exit code 0`
 - F5 调试 或者 左侧运行与调试窗口
 
 ![](../photo/Pasted%20image%2020230707185854.png)
