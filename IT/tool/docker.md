@@ -37,6 +37,7 @@
 ```
 
 # 更改默认镜像地址
+## 通过wsl更改（更方便）
 - WSL发行版默认安装路径在 `%LOCALAPPDATA%/Docker/wsl` 目录
 - 步骤
 	- 关闭Docker Desktop
@@ -45,13 +46,15 @@
 	- 
 ```
 # 查看镜像
-# Docker Desktop 通过WSL2启动，会自动创建2个子系统，分别对应2个 vhdx 硬盘映像文件[docker-desktop-data与docker-desktop]
+# Docker Desktop 通过WSL2启动，会自动创建2个子系统，分别对应2个 vhdx 硬盘映像文件
+# - docker-desktop-data
+# - docker-desktop
 wsl --list -v 
 wsl --shutdown
 
 # 导出映像文件
-wsl --export docker-desktop F:\docker-vm-source\distro\docker-desktop.tar
-wsl --export docker-desktop-data F:\docker-vm-source\data\docker-desktop-data.tar  
+wsl --export docker-desktop F:\docker\wsl\distro\docker-desktop.tar
+wsl --export docker-desktop-data F:\docker\wsl\data\docker-desktop-data.tar  
 
 # 注销原来的docker
 wsl --unregister docker-desktop-data
@@ -59,9 +62,9 @@ wsl --unregister docker-desktop
 
 # 从tar 文件，将导出的 Docker 镜像再导入回wsl，并设置挂载目录
 # wsl --import <Distribution Name> <InstallLocation> <FileName>
-wsl --import docker-desktop-data F:\docker-vm-source\data\  F:\docker-vm-source\data\docker-desktop-data.tar --version 2
-wsl --import docker-desktop F:\docker-vm-source\distro\  F:\docker-vm-source\distro\docker-desktop.tar --version 2
+wsl --import docker-desktop-data F:\docker\wsl\data\  F:\docker\wsl\data\docker-desktop-data.tar --version 2
+wsl --import docker-desktop F:\docker\wsl\distro\  F:\docker\wsl\distro\docker-desktop.tar --version 2
 ```
 
-# Hyper-v方式修改
+## 通过设置方式修改
 - Settings -> Resources -> Advanced -> Disk image location
