@@ -37,3 +37,14 @@ git pull origin master:branchtest
 1. 将 远程主机origin 的master分支 拉取过来，与 本地的branchtest分支合并
 2. 没有冒号，则表示将 远程origin仓库的 master分支 拉取下来与 本地当前分支合并
 ```
+
+# git 无法保持密码
+```
+在文件 C:\Users\Administrator\.gitconfig 中，添加 [credential]
+
+[user]
+	name = wwpkx
+	email = wwpkx@163.com
+[credential]
+	helper = store
+```
