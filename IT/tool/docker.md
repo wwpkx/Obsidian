@@ -62,3 +62,6 @@ wsl --unregister docker-desktop
 wsl --import docker-desktop-data F:\docker-vm-source\data\  F:\docker-vm-source\data\docker-desktop-data.tar --version 2
 wsl --import docker-desktop F:\docker-vm-source\distro\  F:\docker-vm-source\distro\docker-desktop.tar --version 2
 ```
+
+# Hyper-v方式修改
+- Settings -> Resources -> Advanced -> Disk image location
