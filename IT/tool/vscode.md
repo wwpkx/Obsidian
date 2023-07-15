@@ -2,5 +2,5 @@
 Configure Display Language
 
 # 打开文件夹
-- win: explorer .
+- win:   explorer .
 - mac:  open .
