@@ -7,6 +7,7 @@
 - 查看是否开启Linux子系统
 - 启用或关闭 windows 功能
 - 查看是否开启Linux子系统
+- `wsl --update`
 
 # 配置镜像加速
 - [阿里容器镜像服务 (aliyun.com)](https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors?accounttraceid=c6b27c906c5548d6b9fee2bfa1c6862afvxh)
@@ -36,6 +37,12 @@
 ```
 
 # 更改默认镜像地址
+- WSL发行版默认安装路径在 `%LOCALAPPDATA%/Docker/wsl` 目录
+- 步骤
+	- 关闭Docker Desktop
+	- 在命令行输入关闭wsl的命令：`wsl --shutdown`
+	- 将docker-desktop-data导出到你想放置的位置
+	- 
 ```
 # 查看镜像
 # Docker Desktop 通过WSL2启动，会自动创建2个子系统，分别对应2个 vhdx 硬盘映像文件[docker-desktop-data与docker-desktop]
