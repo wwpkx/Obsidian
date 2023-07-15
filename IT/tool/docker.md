@@ -68,5 +68,3 @@ wsl --import docker-desktop F:\docker\wsl\distro\  F:\docker\wsl\distro\docker-d
 
 ## 通过设置方式修改
 - Settings -> Resources -> Advanced -> Disk image location
-
-
