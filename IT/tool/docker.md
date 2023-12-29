@@ -15,25 +15,22 @@
 
 ```
 {
-  "builder": {
-    "features": {
-      "buildkit": true
+    "builder":{
+        "gc":{
+            "defaultKeepStorage":"20GB",
+            "enabled":true
+        }
     },
-    "gc": {
-      "defaultKeepStorage": "20GB",
-      "enabled": true
-    }
-  },
-  "experimental": false,
-
-# 配置镜像加速
-  "registry-mirrors": [
-    "https://48vg54vg.mirror.aliyuncs.com",
-  	"https://hub-mirror.c.163.com",
-  	"https://mirror.baidubce.com"
-  ]
+    "experimental":false,
+    "registry-mirrors":[
+        "https://registry.docker-cn.com",
+        "https://docker.mirrors.ustc.edu.cn",
+        "https://cr.console.aliyun.com",
+        "https://mirror.ccs.tencentyun.com",
+        "https://hub-mirror.c.163.com",
+        "https://mirror.baidubce.com"
+    ]
 }
-
 ```
 
 # 更改默认镜像地址
