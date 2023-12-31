@@ -1,12 +1,14 @@
+- 下载docker desktop
+- 开启hypter-v服务
+- 开启wsl
+- 配置镜像加速
+- 更改默认镜像位置
 # 开启Hyper-V服务
 - 启用windows Hyper-V虚拟引擎
-- 启用或关闭 windows 功能
-- Hyper-V平台
-
-# wsl
+- 启用或关闭 windows 功能，Hyper-V平台
+# 开启wsl
 - 查看是否开启Linux子系统
-- 启用或关闭 windows 功能
-- 查看是否开启Linux子系统
+- 启用或关闭 windows 功能，查看是否开启Linux子系统
 - `wsl --update`
 
 # 配置镜像加速
