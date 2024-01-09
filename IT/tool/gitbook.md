@@ -6,7 +6,6 @@
 $ npm install gitbook-cli -g
 $ gitbook -V
 
-
 创建一本书
 $ gitbook init
 
