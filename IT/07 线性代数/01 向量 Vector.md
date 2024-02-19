@@ -17,3 +17,10 @@
 ![](../photo/Pasted%20image%2020240219181755.png)
 
 ## Ax=b解的向量形式
+![](../photo/Pasted%20image%2020240219190231.png)
+
+![](../photo/Pasted%20image%2020240219190432.png)
+
+![](../photo/Pasted%20image%2020240219190506.png)
+
+![](../photo/Pasted%20image%2020240219191005.png)
