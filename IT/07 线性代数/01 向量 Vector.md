@@ -11,4 +11,4 @@
 ![](../photo/Pasted%20image%2020240219173302.png)
 
 # 向量空间 span
-
+![](../photo/Pasted%20image%2020240219175259.png)
