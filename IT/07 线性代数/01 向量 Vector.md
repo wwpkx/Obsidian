@@ -12,3 +12,6 @@
 
 # 向量空间 span
 ![](../photo/Pasted%20image%2020240219175259.png)
+
+## 怎么确定一个向量存在于span中
+![](../photo/Pasted%20image%2020240219181755.png)
