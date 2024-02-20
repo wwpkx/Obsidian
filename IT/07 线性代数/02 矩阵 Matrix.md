@@ -12,6 +12,7 @@
 ![](../photo/Pasted%20image%2020240219172246.png)
 
 ## 齐次线性方程组求解
+矩阵的秩 == 主变量个数
 ![](../photo/Pasted%20image%2020240220163528.png)
 ![](../photo/Pasted%20image%2020240220164439.png)
 
@@ -29,3 +30,5 @@
 ![](../photo/Pasted%20image%2020240220165542.png)
 ![](../photo/Pasted%20image%2020240220165807.png)
 
+# 矩阵的秩
+![](../photo/Pasted%20image%2020240220173119.png)
