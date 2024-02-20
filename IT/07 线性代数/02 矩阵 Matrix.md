@@ -36,3 +36,6 @@
 ![](../photo/Pasted%20image%2020240220173523.png)
 ![](../photo/Pasted%20image%2020240220173554.png)
 ![](../photo/Pasted%20image%2020240220173701.png)
+
+# 线性方程组求解
+![](../photo/Pasted%20image%2020240220174934.png)
