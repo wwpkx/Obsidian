@@ -48,3 +48,6 @@
 ![](../photo/Pasted%20image%2020240220112443.png)
 
 ![](../photo/Pasted%20image%2020240220112657.png)
+
+# 初等矩阵
+![](../photo/Pasted%20image%2020240220113844.png)
