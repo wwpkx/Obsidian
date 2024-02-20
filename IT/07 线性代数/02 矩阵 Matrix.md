@@ -1,6 +1,6 @@
 # 线性方程组 定义和解
 ![](../photo/Pasted%20image%2020240219165153.png)
-
+![](../photo/Pasted%20image%2020240220151014.png)
 # 增广矩阵
 ![](../photo/Pasted%20image%2020240219165652.png)
 
