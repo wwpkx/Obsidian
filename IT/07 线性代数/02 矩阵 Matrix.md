@@ -4,6 +4,11 @@
 ![](../photo/Pasted%20image%2020240220151014.png)
 ![](../photo/Pasted%20image%2020240220155016.png)
 ![](../photo/Pasted%20image%2020240220155242.png)
+
+## 齐次线性方程组求解
+![](../photo/Pasted%20image%2020240220163528.png)
+
+## 非齐次线性方程组求解
 # 增广矩阵
 ![](../photo/Pasted%20image%2020240219165652.png)
 
