@@ -7,8 +7,20 @@
 
 ## 齐次线性方程组求解
 ![](../photo/Pasted%20image%2020240220163528.png)
+![](../photo/Pasted%20image%2020240220164439.png)
+
+# 求通解步骤
+![](../photo/Pasted%20image%2020240220164644.png)
+
+![](../photo/Pasted%20image%2020240220164657.png)
+![](../photo/Pasted%20image%2020240220164744.png)
+![](../photo/Pasted%20image%2020240220164816.png)
+![](../photo/Pasted%20image%2020240220164943.png)
+![](../photo/Pasted%20image%2020240220165000.png)
 
 ## 非齐次线性方程组求解
+![](../photo/Pasted%20image%2020240220165040.png)
+
 # 增广矩阵
 ![](../photo/Pasted%20image%2020240219165652.png)
 
