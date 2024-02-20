@@ -19,7 +19,7 @@
 ![](../photo/Pasted%20image%2020240220165000.png)
 
 ## 非齐次线性方程组求解
-![](../photo/Pasted%20image%2020240220165106.png)
+![](../photo/Pasted%20image%2020240220171029.png)
 ![](../photo/Pasted%20image%2020240220165542.png)
 ![](../photo/Pasted%20image%2020240220165807.png)
 
