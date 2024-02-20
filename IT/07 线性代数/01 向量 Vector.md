@@ -37,3 +37,9 @@
 
 ![](../photo/Pasted%20image%2020240220100451.png)
 
+# 线性变换和矩阵变换
+![](../photo/Pasted%20image%2020240220104802.png)
+
+![](../photo/Pasted%20image%2020240220104855.png)
+
+![](../photo/Pasted%20image%2020240220104950.png)
