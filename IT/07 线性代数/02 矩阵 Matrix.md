@@ -1,4 +1,5 @@
-# 线性方程组 定义和解
+# 线性方程组 
+## 定义和解
 ![](../photo/Pasted%20image%2020240219165153.png)
 ![](../photo/Pasted%20image%2020240220151014.png)
 ![](../photo/Pasted%20image%2020240220155016.png)
