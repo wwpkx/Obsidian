@@ -5,11 +5,17 @@
 ![](../photo/Pasted%20image%2020240220155016.png)
 ![](../photo/Pasted%20image%2020240220155242.png)
 
+## 增广矩阵
+![](../photo/Pasted%20image%2020240219165652.png)
+
+## 高斯消元法
+![](../photo/Pasted%20image%2020240219172246.png)
+
 ## 齐次线性方程组求解
 ![](../photo/Pasted%20image%2020240220163528.png)
 ![](../photo/Pasted%20image%2020240220164439.png)
 
-# 求通解步骤
+### 求通解步骤
 ![](../photo/Pasted%20image%2020240220164644.png)
 
 ![](../photo/Pasted%20image%2020240220164657.png)
@@ -23,8 +29,3 @@
 ![](../photo/Pasted%20image%2020240220165542.png)
 ![](../photo/Pasted%20image%2020240220165807.png)
 
-# 增广矩阵
-![](../photo/Pasted%20image%2020240219165652.png)
-
-# 高斯消元法
-![](../photo/Pasted%20image%2020240219172246.png)
