@@ -1,5 +1,5 @@
 # 线性方程组 
-## 定义和解
+## 线性方程组 定义和解
 ![](../photo/Pasted%20image%2020240219165153.png)
 ![](../photo/Pasted%20image%2020240220151014.png)
 ![](../photo/Pasted%20image%2020240220155016.png)
@@ -31,4 +31,8 @@
 ![](../photo/Pasted%20image%2020240220165807.png)
 
 # 矩阵的秩
-![](../photo/Pasted%20image%2020240220173119.png)
+![](../photo/Pasted%20image%2020240220173259.png)
+![](../photo/Pasted%20image%2020240220173424.png)
+![](../photo/Pasted%20image%2020240220173523.png)
+![](../photo/Pasted%20image%2020240220173554.png)
+![](../photo/Pasted%20image%2020240220173701.png)
