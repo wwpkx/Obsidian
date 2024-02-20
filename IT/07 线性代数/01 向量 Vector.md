@@ -57,3 +57,4 @@
 
 ## 行列式 |A|
 ![](../photo/Pasted%20image%2020240220121353.png)
+![](../photo/Pasted%20image%2020240220122020.png)
