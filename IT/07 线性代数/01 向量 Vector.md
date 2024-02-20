@@ -51,3 +51,6 @@
 
 # 初等矩阵
 ![](../photo/Pasted%20image%2020240220113844.png)
+
+# 可逆矩阵
+![](../photo/Pasted%20image%2020240220115442.png)
