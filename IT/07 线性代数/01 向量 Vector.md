@@ -45,3 +45,6 @@
 ![](../photo/Pasted%20image%2020240220104950.png)
 
 # 矩阵乘法
+![](../photo/Pasted%20image%2020240220112443.png)
+
+![](../photo/Pasted%20image%2020240220112657.png)
