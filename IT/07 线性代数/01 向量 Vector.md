@@ -26,3 +26,5 @@
 ![](../photo/Pasted%20image%2020240219191005.png)
 
 ## 线性相关和线性无关
+![](../photo/Pasted%20image%2020240220091048.png)
+
