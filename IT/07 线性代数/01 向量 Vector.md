@@ -54,3 +54,6 @@
 
 # 可逆矩阵
 ![](../photo/Pasted%20image%2020240220115442.png)
+
+## 行列式 |A|
+![](../photo/Pasted%20image%2020240220121353.png)
