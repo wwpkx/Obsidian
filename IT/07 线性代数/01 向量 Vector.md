@@ -56,15 +56,6 @@
 ![](../photo/Pasted%20image%2020240220115442.png)
 
 ![](../photo/Pasted%20image%2020240220141839.png)
-## 行列式 |A|
-
-### 行列式 |A| 计算方法1
-![](../photo/Pasted%20image%2020240220121353.png)
-![](../photo/Pasted%20image%2020240220122020.png)
-
-### 行列式 |A| 计算方法2
-![](../photo/Pasted%20image%2020240220185120.png)
-![](../photo/Pasted%20image%2020240220185211.png)
 
 ## 二阶矩阵的逆矩阵
 ![](../photo/Pasted%20image%2020240220182010.png)
