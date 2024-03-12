@@ -58,7 +58,7 @@
 ![](../photo/Pasted%20image%2020240220141839.png)
 ## 行列式 |A|
 ### 行列式 |A| 定义
-![](../photo/Pasted%20image%2020240220184907.png)
+
 ### 行列式 |A| 的意义
 ![](../photo/Pasted%20image%2020240220185018.png)
 ![](../photo/Pasted%20image%2020240220185035.png)
