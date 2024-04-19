@@ -1,5 +1,5 @@
 # 什么是DSL
-- DSL全称：Domain Specific Language，即领域特定语言
+- DSL全称：Domain Specific Language，即**领域特定语言**
 - 通过它我们可以**编写出一些看似脱离其原始语法结构的代码**，从而构建出一种专有的语法结构    
 
 ## 外部DSL
