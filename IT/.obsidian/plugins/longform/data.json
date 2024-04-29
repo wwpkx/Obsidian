@@ -7,9 +7,30 @@
   "sessions": [
     {
       "start": "2024-04-29T02:19:44.127Z",
-      "total": 0,
+      "total": 1159,
       "drafts": {
         "00 compile - 副本/compile/Index.md": {
+          "total": 1159,
+          "scenes": {
+            "Index 1": 5,
+            "Index 1 1": 5,
+            "Index 1 1 1": 5,
+            "1 gcc": 0,
+            "1.1 gcc概述": 148,
+            "1.2 gcc编译": 490,
+            "1.2.1  编译程序": 279,
+            "1.2.2 预处理指令": 227
+          }
+        },
+        "00 compile - 副本/compile/Index 1.md": {
+          "total": 0,
+          "scenes": {}
+        },
+        "00 compile - 副本/compile/Index 1 1.md": {
+          "total": 0,
+          "scenes": {}
+        },
+        "00 compile - 副本/compile/Index 1 1 1.md": {
           "total": 0,
           "scenes": {}
         }
