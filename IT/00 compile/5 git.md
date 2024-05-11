@@ -48,3 +48,4 @@ git pull origin master:branchtest
 [credential]
 	helper = store
 ```
+
