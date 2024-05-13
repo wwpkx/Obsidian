@@ -38,7 +38,7 @@ https://github.com/akaalias/obsidian-extract-pdf
 是一个好用的PDF转换文本工具，可以直接将PDF转化为markdown文件，你可以直接在原文上做笔记了。
 
 Note Refactor插件
-是一个很好用的拆书工具，可以让你用不同方式拆解一本书，打造自己的知识网络。
+是一个很好用的**拆书工具**，可以让你用不同方式拆解一本书，打造自己的知识网络。
 
 Enhancing mind
 是一个免费绘制思维导图工具，你可以直接用它绘制自己的想法。
